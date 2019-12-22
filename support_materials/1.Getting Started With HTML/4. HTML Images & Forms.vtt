@@ -1,0 +1,709 @@
+WEBVTT
+
+00:05.340 --> 00:11.710
+What's up ladies and gentlemen Mark Peiser with DENSELOW dot com and our very first website we're going
+
+00:11.710 --> 00:16.630
+to conclude in this video Vecsey gone quite a bit and I know you've watched a series of videos because
+
+00:16.630 --> 00:20.530
+I'm talking but like literally once you know all the stuff you can build this web page in less than
+
+00:20.530 --> 00:22.460
+five minutes which is pretty awesome.
+
+00:22.900 --> 00:27.910
+So what I want to do is just finish off the website a few more finishing touches here maybe embed a
+
+00:27.910 --> 00:28.740
+YouTube video.
+
+00:28.840 --> 00:31.100
+Ooh that makes sense right.
+
+00:31.270 --> 00:32.450
+So let's do that now.
+
+00:32.500 --> 00:34.420
+OK so we've got a table here.
+
+00:34.420 --> 00:37.550
+It probably makes sense to put another horizontal rule in here.
+
+00:37.560 --> 00:41.020
+H.R. and then a little line to break things up.
+
+00:41.260 --> 00:45.490
+And this time let's go ahead and pretend you know we're trying to sell something right so we won't have
+
+00:45.490 --> 00:50.500
+some bullet points as to why soap's is awesome and amazing so this time we're going to use an ordered
+
+00:50.500 --> 00:50.880
+list.
+
+00:50.920 --> 00:51.760
+Oh well.
+
+00:52.060 --> 00:52.720
+OK.
+
+00:53.050 --> 00:54.760
+And same format right list item.
+
+00:54.820 --> 00:55.110
+OK.
+
+00:55.120 --> 01:02.140
+So what I want to do is above this order list here is say you know why should you choose those right
+
+01:02.150 --> 01:06.720
+so we're going to say this time and H2 are too wide of slopes.
+
+01:06.760 --> 01:16.950
+So it is smaller than the first and the Suydam one is going to say real world real world coding.
+
+01:16.960 --> 01:17.650
+I like that.
+
+01:17.830 --> 01:24.920
+Maybe a real world cup cover dash the real world like the dash looks good.
+
+01:25.000 --> 01:26.130
+Real world coding.
+
+01:26.230 --> 01:28.180
+Can we build real apps right.
+
+01:28.180 --> 01:31.960
+Fun and exciting fun and exciting.
+
+01:31.960 --> 01:37.870
+Lots of terrible jokes to go around the side I'm affordable which it is.
+
+01:37.870 --> 01:39.920
+Some companies charge $200 a month.
+
+01:40.000 --> 01:43.690
+Not desktops you get all this for a very low price.
+
+01:43.810 --> 01:53.660
+So real world coding fun and exciting and affordable although I feel like I broke something fun and
+
+01:53.670 --> 01:55.390
+exciting affordable.
+
+01:55.450 --> 01:56.680
+I put in number one here.
+
+01:56.770 --> 02:00.430
+That's why that should be an L and and-I and this is also number one.
+
+02:00.430 --> 02:01.120
+Wow.
+
+02:01.330 --> 02:04.890
+Wow what did they do with these number ones here.
+
+02:05.410 --> 02:07.570
+I'm trippin out OK.
+
+02:07.650 --> 02:08.810
+Here you go.
+
+02:09.400 --> 02:10.180
+So list items.
+
+02:10.320 --> 02:11.490
+Boom boom boom.
+
+02:11.520 --> 02:12.510
+I like that a lot.
+
+02:12.790 --> 02:14.310
+OK great.
+
+02:14.320 --> 02:15.900
+Now you're not sold enough.
+
+02:15.970 --> 02:16.250
+Right.
+
+02:16.250 --> 02:17.410
+You've come the Web site.
+
+02:17.620 --> 02:19.350
+You're starting to feel good but you're not quite there.
+
+02:19.350 --> 02:21.850
+So now we need an actual video.
+
+02:22.000 --> 02:27.320
+You know MacDuff So it's really exciting so we're going to go to YouTube dot com slash see slash def
+
+02:27.340 --> 02:32.780
+slopes and find a really exciting video here this fact.
+
+02:32.800 --> 02:33.790
+This one's great.
+
+02:34.190 --> 02:37.170
+1385 use this is great.
+
+02:37.180 --> 02:40.780
+What does this add avocados from Mexico.
+
+02:40.960 --> 02:42.370
+Sorry getting distracted.
+
+02:42.400 --> 02:47.550
+We do not want any avocados from Mexico we American avocados.
+
+02:48.160 --> 02:53.810
+And so here's our I-frame.
+
+02:54.040 --> 02:54.980
+Ok cool.
+
+02:55.320 --> 03:00.850
+So I just wanted the embed and I grabbed the I-frame here and I'm just going to paste it under the ordered
+
+03:00.850 --> 03:01.370
+list.
+
+03:03.030 --> 03:03.850
+OK.
+
+03:04.410 --> 03:05.120
+And look at that.
+
+03:05.130 --> 03:06.630
+That is pretty darn cool.
+
+03:06.660 --> 03:09.310
+If I do say so myself.
+
+03:09.750 --> 03:10.110
+Wow.
+
+03:10.140 --> 03:10.810
+Really.
+
+03:10.950 --> 03:12.010
+Yeah I like it a lot.
+
+03:12.150 --> 03:15.070
+I like it a lot.
+
+03:15.950 --> 03:19.190
+Well give a nice little border to firm border.
+
+03:19.190 --> 03:21.880
+How about one yeah.
+
+03:22.180 --> 03:23.300
+So pretty cool right.
+
+03:23.300 --> 03:26.370
+The I-frame allows you to embed things I-frame is just a container.
+
+03:26.470 --> 03:30.730
+OK we're not going to go into all the depths of an I-frame the best way to learn how to code and build
+
+03:30.790 --> 03:34.180
+web apps is actually from building full scale web apps which we are going to be doing later in this
+
+03:34.180 --> 03:35.080
+course.
+
+03:35.080 --> 03:39.910
+I really don't like to teach every little thing and break it out because it can be very boring and mundane
+
+03:40.300 --> 03:44.460
+but just know the I-frame is available to you and you know you can do lots of different things with
+
+03:44.460 --> 03:44.850
+it.
+
+03:44.850 --> 03:50.950
+So now we get this cool video although I don't like the freeze frame that it really picked on it but
+
+03:51.640 --> 03:53.070
+it turned out pretty good here.
+
+03:53.500 --> 03:53.720
+OK.
+
+03:53.740 --> 03:54.580
+And of course you can play it
+
+04:00.520 --> 04:02.780
+Redfoo coder is pretty cool.
+
+04:02.800 --> 04:05.930
+LMI feel sexy and I know it.
+
+04:06.190 --> 04:06.430
+OK.
+
+04:06.430 --> 04:08.800
+So I-frame that looks good.
+
+04:08.980 --> 04:11.910
+So why does subs we've now picked it out you can of course change this.
+
+04:12.200 --> 04:20.760
+You know I don't have the aspect ratio dimensions so but if I said let's say 400 and let's get to 50.
+
+04:20.790 --> 04:24.390
+Again I don't know the aspect ratio I'm probably stretching it a little bit here but it's maybe a little
+
+04:24.390 --> 04:28.160
+bit better smaller like this which is fine allow full screen is fine.
+
+04:28.200 --> 04:28.650
+OK.
+
+04:28.710 --> 04:29.640
+So we'll leave that in there.
+
+04:29.670 --> 04:33.490
+And let's go ahead and put another H.R. just to break things up a little bit here.
+
+04:33.560 --> 04:38.640
+So our Web page is really coming together here and divide it under there.
+
+04:38.660 --> 04:41.610
+Last thing we probably on our page is a contact form of some kind.
+
+04:41.620 --> 04:42.900
+So let's go ahead and do that.
+
+04:43.020 --> 04:49.960
+Let's make another hetter say you want to say contact us or go the bottom here.
+
+04:50.790 --> 04:52.140
+And what else do we want here.
+
+04:52.170 --> 04:55.850
+How it formed so we can use the forum tag and we can put some elements in here.
+
+04:55.860 --> 05:00.330
+So what I want to do is say first name ok.
+
+05:00.870 --> 05:01.370
+Scroll down.
+
+05:01.380 --> 05:07.830
+There's the first name and what I want to do is put the input in here input type equals text.
+
+05:07.830 --> 05:09.100
+All right.
+
+05:09.200 --> 05:10.560
+And there's a box there now.
+
+05:10.740 --> 05:14.270
+I don't like how it's on the same line as you can see down here.
+
+05:14.670 --> 05:19.300
+So what I actually want to do is after the first name I want to break.
+
+05:19.370 --> 05:24.090
+So B R and B are you used to have to put a slash in there to close it but you don't have to do that
+
+05:24.100 --> 05:24.660
+anymore.
+
+05:24.870 --> 05:25.320
+OK.
+
+05:25.350 --> 05:28.620
+And we're going to do it again because I still don't like how close it is to the first name.
+
+05:28.620 --> 05:30.930
+I want a little bit or a little bit more space.
+
+05:31.350 --> 05:35.210
+So we go there's the first name and there's the box for the first name.
+
+05:35.220 --> 05:37.190
+OK this is looking pretty good.
+
+05:37.680 --> 05:38.460
+Yeah.
+
+05:39.030 --> 05:45.540
+And then let's go ahead and put a last name in it and say the last name.
+
+05:45.930 --> 05:47.270
+And we're going to say B R
+
+05:51.380 --> 05:57.120
+Maybe I'll take this one off and I'll put the B are on here and we'll do two on this one.
+
+05:57.140 --> 05:57.860
+That's better.
+
+05:57.860 --> 05:58.860
+I'd like that better.
+
+05:59.180 --> 06:02.720
+OK let's put another input input type equals text.
+
+06:02.900 --> 06:03.460
+OK.
+
+06:03.560 --> 06:04.740
+And we're going to just say
+
+06:07.580 --> 06:14.820
+Actually this should probably just be name and email your say email.
+
+06:15.220 --> 06:16.440
+OK.
+
+06:16.670 --> 06:17.540
+Type equals text.
+
+06:17.540 --> 06:18.710
+I like it.
+
+06:18.710 --> 06:22.700
+And let's do another B R and another B are to break the line.
+
+06:22.850 --> 06:24.060
+Break it up there a little bit.
+
+06:24.440 --> 06:33.760
+And then this one put a button in OK button is going to say submit submit like so I like it.
+
+06:34.150 --> 06:36.800
+Cool.
+
+06:37.190 --> 06:39.850
+Yeah let's see here.
+
+06:45.750 --> 06:47.820
+So I want to show you something here.
+
+06:47.970 --> 06:48.730
+We have two buttons now.
+
+06:48.750 --> 06:54.840
+One is actually a button tag and one is an input tag with a value of type submit and submit is just
+
+06:54.840 --> 06:56.700
+really a button and you can use either one.
+
+06:56.700 --> 06:58.960
+There's no right there's no one that's better than the other.
+
+06:58.980 --> 07:00.900
+And both of these can invoke javascript.
+
+07:01.030 --> 07:04.280
+OK so you're going to see this in this course and other places as well too.
+
+07:04.290 --> 07:06.420
+And you're also going to see an HMO that you can do more.
+
+07:06.420 --> 07:09.860
+One thing multiple ways and so submit and submit.
+
+07:09.870 --> 07:10.150
+OK.
+
+07:10.170 --> 07:14.490
+We're going to leave the button just for sake of clarity right now and look at this we've got a contact
+
+07:14.490 --> 07:16.630
+form you put your first name in.
+
+07:17.070 --> 07:18.140
+Even refreshes the page.
+
+07:18.140 --> 07:18.920
+Look at that.
+
+07:19.020 --> 07:21.530
+You can put your name in and your email in it.
+
+07:21.540 --> 07:22.950
+And I think that's pretty cool.
+
+07:22.980 --> 07:27.690
+Welcome to those who got our links up here a little bit of text here.
+
+07:27.780 --> 07:30.320
+The courses that you can buy Why does slopes.
+
+07:30.360 --> 07:35.450
+And then we've got this video here that you can watch and it's all coming together.
+
+07:35.760 --> 07:36.540
+That's it.
+
+07:36.540 --> 07:39.730
+We've really built our first web site here.
+
+07:39.750 --> 07:40.780
+And the crazy thing is.
+
+07:40.790 --> 07:42.750
+Here is the crazy thing.
+
+07:43.260 --> 07:48.110
+What you just learned here is 95 percent of the time that you'll be using every day.
+
+07:48.120 --> 07:51.130
+And I'm not saying that you're not going to use javascript or other things you will.
+
+07:51.360 --> 07:58.860
+But my point is I started working on our Web site actually dustups Web site and I'll show you right
+
+07:58.860 --> 08:00.140
+here I'll show you.
+
+08:00.270 --> 08:04.860
+We just at time of recording we came out this book.
+
+08:05.300 --> 08:06.140
+OK.
+
+08:06.720 --> 08:09.320
+So I'll tell you what I quoted I coded up today.
+
+08:09.360 --> 08:11.240
+I slung some code today.
+
+08:11.280 --> 08:11.970
+Click the book tab.
+
+08:11.970 --> 08:12.970
+I built this whole web page.
+
+08:12.970 --> 08:13.750
+OK.
+
+08:14.310 --> 08:14.820
+All right.
+
+08:14.820 --> 08:15.930
+Pretty cool right.
+
+08:16.350 --> 08:26.130
+And everything that we've basically used except maybe the image tag really everything that we've used
+
+08:27.390 --> 08:28.730
+today is what I use.
+
+08:28.740 --> 08:30.080
+I didn't use anything else.
+
+08:30.180 --> 08:32.020
+I didn't even use tables I used.
+
+08:32.280 --> 08:37.370
+Right here I used an unordered list took off the bullet points and these are just p tags here.
+
+08:37.380 --> 08:40.570
+This is like an h n H2 H1.
+
+08:40.740 --> 08:41.770
+This is just a buy in.
+
+08:41.850 --> 08:43.010
+This is just a header here.
+
+08:43.020 --> 08:44.150
+This is another.
+
+08:44.160 --> 08:45.390
+This one's in an ordered list.
+
+08:45.390 --> 08:48.350
+The only one I haven't showed you is an image which I'm going to show you right now.
+
+08:48.570 --> 08:51.520
+How do we get you know images on our Web site.
+
+08:51.600 --> 08:57.680
+Of course what kind of coding Web site do we have without having some type of image.
+
+08:58.350 --> 09:01.690
+So let's just see what the Internet has to say about that slopes.
+
+09:01.710 --> 09:02.980
+Good images.
+
+09:03.540 --> 09:04.970
+Oh look at this nice little logo.
+
+09:05.010 --> 09:06.270
+I like that a lot.
+
+09:06.270 --> 09:07.260
+You image.
+
+09:07.560 --> 09:11.790
+Let's go ahead and just take this image here a logo for a web site.
+
+09:11.790 --> 09:12.490
+All right.
+
+09:12.870 --> 09:19.290
+And let's go over here to our Web site and maybe inside the body we're just going to place an image.
+
+09:19.650 --> 09:25.040
+I am the source equals we're going to paste in the image.
+
+09:25.180 --> 09:26.190
+OK.
+
+09:28.010 --> 09:34.240
+Impress safe and see what happens and we get that we have a nice little image here.
+
+09:34.260 --> 09:37.950
+Actually it's pretty huge but cool.
+
+09:37.980 --> 09:42.580
+We've got an image on our Web site and I think that's pretty darn cool.
+
+09:43.660 --> 09:50.740
+Things were probably going to want to do just for sake of completion is give it an alternate tag slopes
+
+09:50.740 --> 09:57.490
+logo this is in case the image can't load for some reason or let's say accessibility so is blind and
+
+09:57.490 --> 10:02.000
+the computer reads to them it's going to say you know dad slopes logo is going to read it out to them.
+
+10:02.000 --> 10:03.490
+So we want to put that in there.
+
+10:03.550 --> 10:07.300
+And also I don't like how big it is at all.
+
+10:07.300 --> 10:08.450
+Let's just assume it's a square.
+
+10:08.450 --> 10:10.140
+It may not be but we're going to say right.
+
+10:10.150 --> 10:19.330
+Let's say 100 and set the width to win 100 as well to keep everything.
+
+10:19.330 --> 10:23.740
+Always of course in double quotes as we've been doing in this video so far.
+
+10:23.740 --> 10:29.610
+And let's go ahead and go find our life.
+
+10:29.810 --> 10:30.970
+There we go.
+
+10:30.990 --> 10:34.040
+And as you can see the image is resized which is pretty cool.
+
+10:34.250 --> 10:37.540
+Maybe it makes more sense to put the logo in front of the Welcome to the slopes.
+
+10:37.580 --> 10:38.560
+So I think I want to.
+
+10:38.960 --> 10:43.580
+Well I guess it is there it's just brought it down on the new line because the head are there.
+
+10:43.820 --> 10:44.530
+OK.
+
+10:44.530 --> 10:47.940
+So yeah I think it's fine.
+
+10:47.960 --> 10:48.720
+So there you have it.
+
+10:48.740 --> 10:54.680
+We've got an image I could have put this in a table if I wanted to make my logo next to this here.
+
+10:55.070 --> 10:55.790
+So I do it.
+
+10:55.850 --> 10:56.460
+OK.
+
+10:56.630 --> 11:02.600
+OK we'll make another table make another table again.
+
+11:02.630 --> 11:07.520
+You don't have to work with tables in the new H.M. because you have CSSA of course.
+
+11:07.520 --> 11:12.470
+So what I want to do is this time I only have two columns and in the first column we're going to have
+
+11:12.470 --> 11:18.660
+the logo like this K loop.
+
+11:18.660 --> 11:22.140
+And the second one is going to have the header like so.
+
+11:22.380 --> 11:23.630
+Put it right in there.
+
+11:27.610 --> 11:28.570
+Save it.
+
+11:29.230 --> 11:30.090
+OK cool.
+
+11:30.100 --> 11:31.900
+Welcome to death slopes there's a logo.
+
+11:31.970 --> 11:32.170
+OK.
+
+11:32.200 --> 11:33.630
+There are the three links.
+
+11:33.630 --> 11:37.810
+Now of course you want to be linking an image from a random Twitter page probably not because it may
+
+11:37.810 --> 11:41.710
+not always be available we probably want to download it and reference it locally but this is fine for
+
+11:41.710 --> 11:42.240
+now.
+
+11:42.430 --> 11:45.670
+Web site is coming together so that video this video is done.
+
+11:45.680 --> 11:46.710
+What I want you to do.
+
+11:46.900 --> 11:47.360
+OK.
+
+11:47.500 --> 11:52.570
+I want you to finish this Web site add more things to or if you have your own product or idea go ahead
+
+11:52.630 --> 11:55.170
+and build your own similar web site using the tools that we have.
+
+11:55.170 --> 11:59.560
+We've talked about images we've talked about frames we've talked about tables and orderless and unordered
+
+11:59.560 --> 12:02.550
+lists and paragraphs and HRO and so many things.
+
+12:02.560 --> 12:07.150
+And that's 95 percent of what you'll be using every day whenever you're working with HVM L which is
+
+12:07.150 --> 12:09.200
+pretty cool you know with the No.
+
+12:09.430 --> 12:10.060
+So that's it for now.
+
+12:10.060 --> 12:13.440
+Marc price it does slow dot.com moving on and for.

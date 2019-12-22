@@ -1,0 +1,553 @@
+WEBVTT
+
+00:04.790 --> 00:05.820
+The
+
+00:08.960 --> 00:09.950
+YO WHAT IS UP.
+
+00:10.020 --> 00:12.690
+Everybody this is Jason Woodruffs Klopstock com.
+
+00:12.710 --> 00:17.780
+And in this video we're going to cover some developer tools that are really going to help you when you're
+
+00:17.780 --> 00:20.960
+designing web pages and web applications.
+
+00:20.960 --> 00:21.150
+All right.
+
+00:21.170 --> 00:27.410
+And what this tool is it's an inspector tool that helps you see a little under the hood of what's going
+
+00:27.410 --> 00:30.320
+on with your HLN CSSA in the browser.
+
+00:30.320 --> 00:33.340
+So let's go ahead we've got our project opened here.
+
+00:33.350 --> 00:41.090
+Go ahead and launch it and the first browser we're going to cover is the inspector tools for Chrome.
+
+00:41.090 --> 00:41.450
+All right.
+
+00:41.450 --> 00:42.860
+So we've got our project here.
+
+00:42.890 --> 00:48.290
+And what I want you to do is I want you to right click and then come down to the bottom and click this
+
+00:48.530 --> 00:56.550
+tab inspect all right and what that brings is this Inspektor tool right here in the bottom.
+
+00:56.550 --> 00:59.600
+All right so let me show you how to use this.
+
+00:59.790 --> 01:07.140
+So what this is is you can see as I highlight these different levels it's targeting different sections
+
+01:07.140 --> 01:09.930
+of my website so you can see that we've got the head here.
+
+01:09.930 --> 01:15.330
+And then once I come into the body we see that the whole page highlights and then if I come down one
+
+01:15.330 --> 01:20.640
+more you can see this is the container that we created so I'm going to actually go ahead and click on
+
+01:20.640 --> 01:21.280
+this.
+
+01:21.600 --> 01:27.840
+And then you've got these little arrows here you can expand the content to see what's inside of here
+
+01:28.290 --> 01:33.290
+so you can see that I've got this class and we added our a container class to this remember.
+
+01:33.450 --> 01:37.890
+And for the container we actually removed the styling.
+
+01:37.890 --> 01:45.240
+So if you come over here to the right side this section over here under Stiles is going to show you
+
+01:45.480 --> 01:48.280
+all the success rules that you have on your elements.
+
+01:48.570 --> 01:52.910
+So you can see that the container is empty because we commented that out.
+
+01:53.100 --> 01:57.470
+But then you'll also see that we have a DIV tag here with a display of block.
+
+01:57.480 --> 02:06.860
+So by nature C Ss puts a display of block on div tags K and you can see that a DIV tag with this display.
+
+02:06.930 --> 02:09.780
+It covers the entire viewport of our browser.
+
+02:09.870 --> 02:10.440
+All right.
+
+02:10.500 --> 02:14.040
+So let's come down a little deeper and let's go into the head of one tag.
+
+02:14.040 --> 02:19.110
+You can see up top here that it's highlighting it and you can see that we've got the head or one tag
+
+02:19.110 --> 02:20.100
+selected.
+
+02:20.100 --> 02:22.260
+The blue is directly around the tecs.
+
+02:22.440 --> 02:27.410
+And then we've got this orange around it which actually indicates margin.
+
+02:27.450 --> 02:33.600
+And let's come over here to the right side into the stiles so we can see that our head or one tag we
+
+02:33.600 --> 02:39.130
+can see the style rules that we put on here and we put a color of white and that text shadow on there
+
+02:39.480 --> 02:45.030
+and it's got these checkboxes next to it and you can see in the browser as I check and uncheck these
+
+02:46.010 --> 02:50.580
+how or remove the style and add it back on as I check.
+
+02:50.580 --> 02:51.040
+All right.
+
+02:51.060 --> 02:56.770
+And then you can see that the head or one element by nature has a display of Block.
+
+02:56.790 --> 02:58.860
+It's got a font size to it.
+
+02:58.860 --> 02:59.940
+And then check this out.
+
+02:59.940 --> 03:04.150
+It has a margin added to the top and bottom.
+
+03:04.210 --> 03:05.000
+All right.
+
+03:05.310 --> 03:06.190
+And then a font weight.
+
+03:06.210 --> 03:12.440
+Bold and then right down here at the bottom this actually shows you the dimensions of your element.
+
+03:12.570 --> 03:20.610
+So we can see here the size of the text the display of block expands the entire viewport by a 3:41 and
+
+03:20.610 --> 03:25.760
+then my head or one text is actually thirty seven pixels tall.
+
+03:25.950 --> 03:29.660
+And then we don't have any padding which you can see this highlight screen.
+
+03:29.730 --> 03:35.460
+The borders are a kind of a light orange yellow and then the margin is orange and you can see that it
+
+03:35.460 --> 03:38.500
+has a margin of 21 point for four.
+
+03:38.520 --> 03:45.360
+So that is Hetter one tags default style of propertys style rules.
+
+03:45.540 --> 03:53.040
+And then if we come into the head or two we can come here we can see the specific style rules we added
+
+03:53.040 --> 03:55.110
+to this with the color and text shadow.
+
+03:55.110 --> 04:02.490
+And then again it has default properties of display font sizes a little bit smaller the margins are
+
+04:02.490 --> 04:03.270
+a little bit smaller.
+
+04:03.270 --> 04:08.910
+And again we have the actual dimensions down here at the very very bottom it shows the dimensions of
+
+04:08.910 --> 04:09.850
+our element.
+
+04:09.900 --> 04:13.490
+So let's learn how to use this a little more.
+
+04:13.830 --> 04:20.730
+So over here in the far left corner we've got this selector tool and when we click that you can see
+
+04:21.090 --> 04:26.190
+that we can hover around our page and it's going to select elements.
+
+04:26.190 --> 04:31.650
+So for example I stop here on the image and I can go ahead and click it and kind of like drops a pin
+
+04:31.920 --> 04:40.590
+and automatically right here in the element Inspektor it highlights my image we can see the source the
+
+04:40.710 --> 04:45.090
+J-P the PMG file that it's grabbing and the class that we added to it.
+
+04:45.180 --> 04:51.330
+And then over here on the stiles on the right you can see our class with the border and remember how
+
+04:51.330 --> 04:54.740
+we did a border of 10 pixels dashed red.
+
+04:54.760 --> 05:01.680
+Well check this how we can expand this and it gives us detailed colors that because we use the shorthand
+
+05:01.680 --> 05:09.930
+border look it actually used the properties border top right color border top style the with the right
+
+05:09.930 --> 05:11.570
+color right styled right with.
+
+05:11.670 --> 05:18.780
+And so just by using the short and here it kind of compiles and this is the actual list of all the default
+
+05:19.290 --> 05:21.250
+styles that it added for us.
+
+05:21.300 --> 05:23.430
+So that's pretty cool.
+
+05:23.430 --> 05:30.060
+Now the other thing we can do is we can actually take this web page that we've created and if we click
+
+05:30.120 --> 05:38.130
+on this right here toggle device toolbar this is going to put this web page in a mobile view this page
+
+05:38.130 --> 05:41.360
+that we built here isn't set up for mobile.
+
+05:41.430 --> 05:42.480
+So why don't you go ahead.
+
+05:42.480 --> 05:49.420
+Open up a new tab and just go to dev slopes dot com.
+
+05:49.450 --> 05:49.790
+All right.
+
+05:49.800 --> 05:51.490
+And then in here.
+
+05:51.540 --> 05:56.790
+Let's go ahead and Right-Click and we're going to inspect.
+
+05:57.030 --> 06:02.070
+And then let's go ahead and click on this toggle right here for the devices.
+
+06:02.370 --> 06:04.280
+I mean get rid of this pop up.
+
+06:04.500 --> 06:09.960
+Go ahead and click that and let's do this up here at the top.
+
+06:09.960 --> 06:14.070
+You've got this dropdown menu and it has a bunch of different phones in it.
+
+06:14.070 --> 06:20.250
+So let's go ahead and select the iPhone 6 plus or I'm going to move this down just a little bit so we
+
+06:20.250 --> 06:23.640
+can increase the size.
+
+06:23.730 --> 06:25.740
+Let's do that window that's 50 percent.
+
+06:25.740 --> 06:28.130
+Let's see if we can bump it up to 75.
+
+06:28.130 --> 06:28.370
+All right.
+
+06:28.380 --> 06:29.650
+That works.
+
+06:29.700 --> 06:36.900
+So now you can see that we've got an iPhone 6 plus selected and it takes your web application web site
+
+06:37.230 --> 06:42.240
+and it puts it into a mobile state so you can actually see what this is going to look like and you can
+
+06:42.240 --> 06:45.540
+see that I've got my little round bubble cursor here.
+
+06:45.540 --> 06:52.310
+This is like a touch screen so we can go ahead and click on the X up here we've got the side menu.
+
+06:52.560 --> 06:58.080
+We've got different sections that we can go to and it's going to load the content and then down here
+
+06:58.170 --> 07:05.790
+again we can see that we've got a list of elements here that we can inspect to see what kind of style
+
+07:05.790 --> 07:06.750
+rules on it.
+
+07:06.750 --> 07:13.860
+So I can go ahead and click the selector tool again select this first image and then in a mobile state
+
+07:14.100 --> 07:17.530
+we can see all the classes that are assigned to this.
+
+07:17.550 --> 07:17.790
+Right.
+
+07:17.790 --> 07:22.100
+And then over here in the styles and others is a little hard to see and let me pull it up here.
+
+07:22.320 --> 07:28.210
+We can see all the style rules that are applied to this image so.
+
+07:28.390 --> 07:29.020
+Pretty cool stuff.
+
+07:29.020 --> 07:31.920
+So that's how you work with Chrome.
+
+07:31.930 --> 07:32.560
+All right.
+
+07:32.560 --> 07:37.020
+And then I want to show you Firefox and Safari.
+
+07:37.240 --> 07:43.850
+So wherever your project is located open up your project folder that we're working in.
+
+07:43.850 --> 07:44.520
+All right.
+
+07:44.530 --> 07:51.940
+And then go ahead and select the HTML file and I want you to right click on it and then do an open with
+
+07:52.600 --> 07:56.470
+and then I'm going to go ahead and select Firefox this time.
+
+07:56.500 --> 07:59.350
+All right so now we've got our project in Firefox.
+
+07:59.350 --> 08:06.430
+So again to inspect her element with Firefox we're going to right click click inspect element and it's
+
+08:06.430 --> 08:08.030
+the same similar concept.
+
+08:08.040 --> 08:14.290
+OK you've got your elements here on the left and you've got your styles here on the right.
+
+08:14.320 --> 08:19.570
+So if I click on the container and I expand this you can see again that we've got our head of ones and
+
+08:19.800 --> 08:20.410
+twos.
+
+08:20.710 --> 08:24.440
+And then over here on the right we've got our style properties to it.
+
+08:24.930 --> 08:27.360
+All right and then same thing with the head or twos.
+
+08:27.460 --> 08:32.290
+Now we can also again click the arrow right here.
+
+08:32.290 --> 08:39.670
+And again it's going to allow us to select different elements on our page and we can select that and
+
+08:39.670 --> 08:45.460
+it's going to jump to the element right here in our inspector and we can view the star properties here
+
+08:45.460 --> 08:48.720
+on the right and then it has a few other options here.
+
+08:48.730 --> 08:55.230
+So if we click this guy right here this is going to tell us whether we want to position this inspectorship
+
+08:55.240 --> 08:56.400
+on the right.
+
+08:56.590 --> 09:03.820
+We can go ahead and slap it down here on the bottom and we've got a option to do the same thing that
+
+09:03.820 --> 09:07.160
+we did in Chrome and put this in a responsive design mode.
+
+09:07.540 --> 09:11.260
+All right so move our inspector down and we've got it over here.
+
+09:11.320 --> 09:17.720
+Now what I want you to do is you can slide to this and it's going to give you different dimension screens.
+
+09:18.220 --> 09:23.050
+All right so I'm going to actually go back and create a mobile phone here and then if we click this
+
+09:23.440 --> 09:27.070
+little hand here this is going to allow us to click around or website.
+
+09:27.430 --> 09:34.450
+But again why don't we go ahead and open up dev slopes website so we can check it out in a mobile state.
+
+09:34.450 --> 09:42.590
+So right click inspect element and then come over to this responsive design mode.
+
+09:42.610 --> 09:47.210
+So we've got that pulled up again and I'm going to make this a little smaller.
+
+09:47.230 --> 09:48.340
+Perfect.
+
+09:49.030 --> 09:53.470
+And then to navigate this right now we can't click on anything you see that you've got to click this
+
+09:53.470 --> 09:59.710
+little hand here and it's weird because Firefox says that you might need to reload the page and refresh
+
+09:59.710 --> 10:03.300
+it which I do every time so go ahead and click it.
+
+10:03.370 --> 10:04.960
+I'm going to hit command are.
+
+10:05.020 --> 10:09.890
+You could go ahead and click the refresh button here and refreshing the page.
+
+10:10.270 --> 10:16.550
+And now I can go ahead and I can click on it so I can navigate my page in a mobile state.
+
+10:17.050 --> 10:17.800
+All right.
+
+10:17.800 --> 10:23.340
+So very cool we've covered that and that is Firefox.
+
+10:23.410 --> 10:29.200
+Let's go ahead and close this and let's check this out in Safari now Safari is a little bit different.
+
+10:29.230 --> 10:35.050
+So again go to your project folder right click on the index file and do open with.
+
+10:35.320 --> 10:38.560
+And we're going to go ahead and select Safari this time.
+
+10:38.740 --> 10:41.580
+So come and click safari.
+
+10:41.610 --> 10:42.960
+We've got it opened up here.
+
+10:43.120 --> 10:48.310
+Now if I right click you'll notice that I don't have an inspect element here.
+
+10:48.310 --> 10:48.640
+Right.
+
+10:48.640 --> 10:56.500
+We've only got these four options to allow inspect element on safari come over and click the Safari
+
+10:56.620 --> 10:58.590
+click preferences.
+
+10:58.690 --> 11:03.460
+We're going to come all the way over here and then down here at the bottom it says show develop menu
+
+11:03.460 --> 11:04.990
+in menu bar.
+
+11:04.990 --> 11:11.650
+So when we click that you'll see that we got a new tab up here on safari called develop and we can go
+
+11:11.650 --> 11:13.000
+ahead and close this.
+
+11:13.090 --> 11:17.930
+Now when I right click I can now inspect the element.
+
+11:18.090 --> 11:22.910
+All right and same thing here so we've got all of our elements nested inside.
+
+11:22.910 --> 11:29.870
+Here we can expand them highlight them if we want to target a specific element come over here to this
+
+11:30.020 --> 11:37.910
+little safari scope target thing and you can you know go ahead and select elements and we'll bring you
+
+11:38.120 --> 11:39.960
+to the element here on your right.
+
+11:41.180 --> 11:48.980
+And let me come back here cut off my element page and then if we want we can reposition this.
+
+11:49.040 --> 11:55.040
+Just click this right here for the right side you can click it for the bottom you can click this here
+
+11:55.370 --> 12:02.330
+and actually pop the inspector outside of the web page here which I really like especially if you're
+
+12:02.330 --> 12:07.880
+using two screens you can pop out the inspector throw this on your second screen so it's out of the
+
+12:07.880 --> 12:10.610
+way and use it that way.
+
+12:10.610 --> 12:17.740
+So let's go ahead and dock this again and then if we want to check out the mobile responsive design
+
+12:17.740 --> 12:19.240
+of the site.
+
+12:19.240 --> 12:19.840
+Let's go ahead.
+
+12:19.840 --> 12:21.550
+Open up a new tab.
+
+12:21.550 --> 12:28.510
+Again I'm going to have slopestyle com and then this time we're going to select the developed tab here
+
+12:29.140 --> 12:34.380
+we can come down and select enter a responsive design mode and there is a hot key for that.
+
+12:34.390 --> 12:38.680
+So if we click this I really like the way Apple set it up it's very clean.
+
+12:38.710 --> 12:46.870
+You can select the different devices here and then from here you can go ahead and right click on it
+
+12:46.930 --> 12:49.070
+and then inspect the element.
+
+12:49.070 --> 12:56.400
+So we can go in head and take the target tool and select an element in here and it's kind of highlighted
+
+12:56.400 --> 12:58.100
+here in our element.
+
+12:58.120 --> 13:06.390
+Inspector that completes this lesson we have learned how to use the inspector tools in Chrome Firefox
+
+13:06.420 --> 13:07.310
+and Safari.
+
+13:07.350 --> 13:10.630
+And you're going to be using this a lot especially when working with CSSA.
+
+13:10.740 --> 13:16.920
+When you have elements not being displayed properly or being positioned weird and especially when you
+
+13:16.920 --> 13:22.040
+have style rules running in or messing with other style rules so that's a wrap.
+
+13:22.050 --> 13:23.380
+Let's move on.
+
+13:23.520 --> 13:28.770
+Yes.

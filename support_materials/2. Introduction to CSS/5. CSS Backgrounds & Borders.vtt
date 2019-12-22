@@ -1,0 +1,490 @@
+WEBVTT
+
+00:08.720 --> 00:12.070
+A what is up everybody this is Jason with death slopes dot com.
+
+00:12.080 --> 00:18.100
+And in this video we are going to cover backgrounds and borders in CSSA.
+
+00:18.200 --> 00:20.570
+So let's hop to it.
+
+00:20.570 --> 00:20.870
+All right.
+
+00:20.870 --> 00:26.710
+So we've already learned that with backgrounds we can add a color or a gradient.
+
+00:26.750 --> 00:34.580
+Now when we use the term background it's a shorthand for a bunch of other background options that we
+
+00:34.580 --> 00:35.260
+may have.
+
+00:35.270 --> 00:37.190
+Let me let me show you an example.
+
+00:37.190 --> 00:44.270
+So above your container here let's create some space and at the top here what we're going to do is grab
+
+00:44.270 --> 00:45.410
+the body tag.
+
+00:45.560 --> 00:45.830
+All right.
+
+00:45.830 --> 00:47.180
+The body element.
+
+00:47.180 --> 00:54.050
+Now when we began typing in the word background you can see that background is a shorthand term but
+
+00:54.050 --> 00:59.930
+it also gives us a list of all these other different types of backgrounds we can use such as the background
+
+00:59.930 --> 01:06.580
+attachment clip color background image orange position background size.
+
+01:06.620 --> 01:14.870
+I mean this is a list of stuff that we can use now when we use the shorthand version of background we
+
+01:14.870 --> 01:19.400
+got to know the syntax the value that you can add to the other side of this.
+
+01:19.400 --> 01:20.140
+All right.
+
+01:20.470 --> 01:28.160
+But however when you use a more specified version of the background property it will kind to give you
+
+01:28.160 --> 01:31.930
+some helpers of what kind of values you can throw in there.
+
+01:31.940 --> 01:34.010
+So we've got our body selected.
+
+01:34.010 --> 01:40.370
+Why don't we go ahead and add a background image to this and we're going to there's a few different
+
+01:40.370 --> 01:42.610
+options we can use to add an image.
+
+01:42.620 --> 01:44.780
+And I'm going to use the you are L..
+
+01:44.820 --> 01:45.460
+All right.
+
+01:45.620 --> 01:48.200
+And then go ahead and close that off.
+
+01:48.500 --> 01:53.590
+So let's go grab an image now so come into your browser here.
+
+01:54.750 --> 02:01.400
+Make this full screen for us and just search for something appropriate.
+
+02:01.400 --> 02:08.550
+All right now I'm going to type in minimal zebra background.
+
+02:08.630 --> 02:10.470
+All right.
+
+02:10.470 --> 02:12.250
+And let's go into images.
+
+02:12.260 --> 02:14.360
+I'm just going to grab this first Sieber one here.
+
+02:14.360 --> 02:15.800
+That looks pretty good.
+
+02:15.920 --> 02:19.930
+And we can see the dimensions is a 600 by 375.
+
+02:20.030 --> 02:25.400
+So it's kind of a smaller image but when you're looking for an image I want you to find a smaller image
+
+02:25.490 --> 02:27.170
+because I'm going to show you how to work with that.
+
+02:27.170 --> 02:27.780
+OK.
+
+02:28.010 --> 02:34.730
+So I'm going to go ahead and right click on this save as and I'm going to throw it into my project right
+
+02:34.730 --> 02:35.130
+here.
+
+02:35.240 --> 02:36.030
+OK.
+
+02:36.410 --> 02:39.850
+And I'm going to change the name to just zebra.
+
+02:39.860 --> 02:41.930
+And no I do not have rights to this image.
+
+02:41.930 --> 02:45.270
+Do not use it commercially unless it says so.
+
+02:45.920 --> 02:49.010
+All right so we've got the zebra in our projects.
+
+02:49.010 --> 02:55.230
+I'm going to go back here and inside the background image you are l.
+
+02:55.430 --> 03:00.950
+I'm going to type in zebra and it's grabbing the zebra because I've just cut it at a top level over
+
+03:00.950 --> 03:02.150
+here.
+
+03:02.180 --> 03:05.180
+All right so perfect so we've got that in there.
+
+03:05.180 --> 03:07.080
+Let's go ahead and see what this looks like.
+
+03:07.190 --> 03:11.190
+Going to go ahead and launch the browser here.
+
+03:13.090 --> 03:13.640
+Cool.
+
+03:13.700 --> 03:21.440
+Well that didn't work as expected or I mean it is taking zebra and it's stamping it all over the place.
+
+03:21.460 --> 03:26.200
+Now the reason it's doing this is because we grabbed a smaller image right.
+
+03:26.290 --> 03:34.030
+And the browser because it's a specific image size it's filling up the extra space so it doesn't.
+
+03:34.090 --> 03:37.750
+So the browser doesn't leave all this white space with it the browser doesn't know what to do with this
+
+03:37.760 --> 03:38.740
+exactly.
+
+03:38.770 --> 03:44.140
+So let's come over to brackets and go ahead and get the container out of the way just take the content
+
+03:44.620 --> 03:51.370
+and I'm pressing command option forward slash just commenting get it out and let's use it a few other
+
+03:51.370 --> 03:54.790
+background properties that we can use to help us with this.
+
+03:54.790 --> 03:59.080
+So first we saw that our background image was repeating right.
+
+03:59.290 --> 04:06.820
+So we can do background repeat property and then it comes with a few different options for us and we're
+
+04:06.820 --> 04:10.040
+going to click the no repeat.
+
+04:10.300 --> 04:13.390
+All right save that and then let's check it out.
+
+04:13.840 --> 04:14.600
+Well cool.
+
+04:14.650 --> 04:20.710
+It's not repeating anymore because we told it so the browser is now just giving us one image.
+
+04:20.710 --> 04:21.940
+It's not repeating it.
+
+04:22.000 --> 04:25.500
+But check this out it's left out this empty white space.
+
+04:25.510 --> 04:33.190
+All right so let's learn about another background property back over into brackets right under the background
+
+04:33.200 --> 04:33.920
+Rippy.
+
+04:34.120 --> 04:38.120
+Let's type in background size OK.
+
+04:38.140 --> 04:41.380
+And then we're going to use cover and this.
+
+04:41.380 --> 04:48.120
+Now when you're working with a background size this is specific to working with a background image OK.
+
+04:48.460 --> 04:54.220
+You can't like set a background size of height or width of anything else that it directly targets the
+
+04:54.220 --> 04:56.790
+image that you're working with on the element.
+
+04:56.830 --> 04:57.690
+OK.
+
+04:57.880 --> 05:00.820
+So let's come back over to here and that looks better.
+
+05:00.820 --> 05:06.550
+Right now we've got our image covering the entire viewport of the browser.
+
+05:06.550 --> 05:15.910
+Now when you're wanting to use an image as a background to your Web site or your web app do use an image
+
+05:15.910 --> 05:18.370
+that has the appropriate dimensions.
+
+05:18.430 --> 05:21.910
+Go ahead and resize it you something in high definition.
+
+05:21.910 --> 05:24.930
+This was a smaller image and we stretch it out over the viewport.
+
+05:24.930 --> 05:28.630
+You can see how fuzzy that it's become.
+
+05:28.630 --> 05:29.560
+All right so cool.
+
+05:29.560 --> 05:37.240
+That is background's you can use background's for colors and then you can also set backgrounds for images.
+
+05:37.260 --> 05:38.110
+All right.
+
+05:38.110 --> 05:43.840
+And you can take these background properties here and you could add these two additional elements like
+
+05:43.840 --> 05:50.080
+if I had a container and wanted a background to this specific container or a section of my website you
+
+05:50.080 --> 05:52.580
+can add a background property to this.
+
+05:52.600 --> 06:01.330
+All right so again you can use this shorthand background property and then you come up with the appropriate
+
+06:01.840 --> 06:07.420
+value that you can add to it or you can be a little bit more specific in the Bactrim property that you
+
+06:07.420 --> 06:08.380
+want to use.
+
+06:08.380 --> 06:09.670
+So moving forward.
+
+06:09.680 --> 06:12.640
+Let's go ahead and start working with borders.
+
+06:12.670 --> 06:13.580
+All right.
+
+06:13.780 --> 06:15.860
+So let's come down here.
+
+06:16.240 --> 06:20.020
+So we're in our container outside of our container.
+
+06:20.020 --> 06:26.370
+Why don't we go ahead and create another div tag here and close that off.
+
+06:26.380 --> 06:29.050
+And then inside of here we're just going to throw an image.
+
+06:29.500 --> 06:35.680
+So go do an image and we'll give it a source leave it empty for now and then we're going to add a class
+
+06:35.680 --> 06:36.330
+onto this.
+
+06:36.340 --> 06:40.380
+And I'm just going to type in a border image.
+
+06:40.920 --> 06:41.550
+OK.
+
+06:41.800 --> 06:50.040
+Awesome So let's go ahead and go grab an image for this and I'm going to come up here like the minimal
+
+06:50.040 --> 06:54.420
+stuff so minimal I can.
+
+06:54.450 --> 06:59.180
+All right and then let's pop over to images and I'm going to use this one right here.
+
+06:59.270 --> 07:01.640
+It's a 400 by 300.
+
+07:01.640 --> 07:04.870
+So it's not going to take up my entire web page here.
+
+07:04.880 --> 07:12.050
+I'm going to do save image as and again throw this into your project whatever image you decide to use.
+
+07:12.290 --> 07:14.170
+And perfect so that's saved.
+
+07:14.270 --> 07:18.950
+So back over to brackets inside the image right here in the source.
+
+07:18.950 --> 07:21.980
+Let's go ahead and add that image in there.
+
+07:22.010 --> 07:22.640
+All right.
+
+07:22.760 --> 07:25.720
+So we've added our image and let's check it out make sure it's loading.
+
+07:25.730 --> 07:26.470
+Perfect.
+
+07:26.750 --> 07:28.660
+So we've got our image right here.
+
+07:28.970 --> 07:33.620
+Let's go ahead and work with some borders and different ways that we can use these.
+
+07:33.620 --> 07:34.040
+All right.
+
+07:34.050 --> 07:38.760
+So come over here we're going to grab the image class that we have.
+
+07:38.960 --> 07:40.900
+OK the border image.
+
+07:41.870 --> 07:48.690
+And then inside here let me add some space below this so we can see what we're working with here.
+
+07:48.710 --> 07:57.320
+So just like using the background property we can use the shorthand for border K and then we can go
+
+07:57.320 --> 08:05.120
+ahead and add our value in here and now when you saw this there you can use the shorthand border property
+
+08:05.390 --> 08:08.760
+or you can get a little bit more specific like border bottom.
+
+08:08.840 --> 08:16.460
+We have colors we have radiuses here we have border styles Whit's collapse colors images border the
+
+08:16.460 --> 08:17.940
+left colors.
+
+08:18.140 --> 08:19.080
+Tons of stuff right.
+
+08:19.100 --> 08:20.700
+We have tons of stuff.
+
+08:20.800 --> 08:29.410
+And in this case what I'm going to do is I want to add a border to every single side of this image.
+
+08:29.420 --> 08:37.280
+So I'm just going to use the standard shorthand border property so to use a border to add a value we
+
+08:37.280 --> 08:42.230
+need to first set the width of the border OK and we can do that with pixels.
+
+08:42.230 --> 08:45.370
+So I'm going to set a two pixel with to my border.
+
+08:45.680 --> 08:50.450
+Right now we need to define what kind of border we want to use.
+
+08:50.450 --> 08:53.190
+And the first one we're going to use as a solid.
+
+08:53.190 --> 08:53.850
+All right.
+
+08:54.050 --> 08:58.140
+And then the third value that we're going to throw in here is a color.
+
+08:58.280 --> 09:00.430
+And let's just use red.
+
+09:00.470 --> 09:02.090
+So it shows up easily.
+
+09:02.480 --> 09:07.970
+So we've got a border and this is going to put a two pixel radius around the entire thing.
+
+09:08.090 --> 09:12.930
+Top right left and bottom we're giving it a solid border of color red.
+
+09:12.940 --> 09:14.290
+Let's check that out.
+
+09:14.660 --> 09:15.100
+Cool.
+
+09:15.110 --> 09:17.480
+So you can see that we've got a red border here.
+
+09:17.480 --> 09:18.520
+Very cool.
+
+09:18.530 --> 09:20.990
+Now let me show you this.
+
+09:21.020 --> 09:25.550
+We could be specific here and just do like a border Right.
+
+09:25.820 --> 09:31.010
+And what this is going to do is it's going to add a two pixel solid red border to the right of our image.
+
+09:31.010 --> 09:34.340
+Now and we've got that over here.
+
+09:34.370 --> 09:34.730
+All right.
+
+09:34.730 --> 09:37.710
+I'm going to actually go ahead and make this a little bit thicker so we can see it.
+
+09:37.850 --> 09:39.610
+Let's do 10 pixels.
+
+09:39.620 --> 09:45.320
+All right so now we've got a thicker border that we can work with and we can also change this value
+
+09:45.320 --> 09:46.130
+from a solid.
+
+09:46.130 --> 09:46.450
+All right.
+
+09:46.460 --> 09:58.720
+We can use a dotted value which is going to give us a dotted line here and then we can also use a dashed
+
+10:00.820 --> 10:04.130
+value there and we're going to go ahead and throw this around the entire thing.
+
+10:06.100 --> 10:06.580
+All right.
+
+10:06.610 --> 10:08.440
+Pretty simple stuff right.
+
+10:08.470 --> 10:09.900
+Very very easy.
+
+10:10.360 --> 10:17.650
+And that wraps up this lesson we have learned how to use colors and images with backgrounds in addition
+
+10:17.650 --> 10:18.510
+to gradients.
+
+10:18.520 --> 10:23.920
+And then we've also learned how to use borders and the different ways that we can style them so that's
+
+10:23.920 --> 10:24.530
+a wrap.
+
+10:24.610 --> 10:26.160
+Let's move on.

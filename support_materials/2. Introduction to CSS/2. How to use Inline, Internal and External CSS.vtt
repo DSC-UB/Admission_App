@@ -1,0 +1,424 @@
+WEBVTT
+
+00:08.960 --> 00:12.510
+Hey What's up everybody this is Jason with Def slips dot com.
+
+00:12.650 --> 00:17.720
+And today I'm going to show you three ways that you can set up success in your project.
+
+00:17.720 --> 00:21.440
+So let's let's start a new project if you're using brackets.
+
+00:21.440 --> 00:23.260
+Go ahead do the drop down.
+
+00:23.480 --> 00:26.830
+And I'm going to just throw this on my desktop.
+
+00:26.890 --> 00:27.510
+OK.
+
+00:27.710 --> 00:32.780
+I'm going to call this learned C Ss and we're going to open this up.
+
+00:32.780 --> 00:36.100
+So now we've got a blank project to start with.
+
+00:36.380 --> 00:45.410
+Right click on the left hand nav bar here click new file and then create an index die aged him now.
+
+00:45.620 --> 00:46.660
+All right cool.
+
+00:46.700 --> 00:49.480
+So we're going to write this from the ground up.
+
+00:49.730 --> 00:55.100
+So go ahead and write in the doc type H.T. mail.
+
+00:55.190 --> 01:01.630
+This is a good practice that helps the browser identify your website as in each HTML file.
+
+01:01.880 --> 01:04.880
+And then let's create the Tamil body here.
+
+01:05.060 --> 01:07.430
+And this is another good practice set.
+
+01:07.430 --> 01:11.240
+Set the language to your age T.M. Web site.
+
+01:11.240 --> 01:14.880
+This way the browser knows what default language to load it in.
+
+01:15.020 --> 01:20.360
+And then let's go ahead and create the head of our age HTML file and inside the head we're going to
+
+01:20.360 --> 01:21.510
+create a title.
+
+01:22.040 --> 01:24.240
+So learn see.
+
+01:24.450 --> 01:25.030
+All right cool.
+
+01:25.130 --> 01:32.050
+So that's all we're going to put into the head and then we need a body for HTML file right.
+
+01:32.060 --> 01:34.450
+Everything needs a body.
+
+01:35.750 --> 01:36.250
+Cool.
+
+01:36.350 --> 01:37.660
+So that's great.
+
+01:37.670 --> 01:40.630
+All right so we've got everything set up here.
+
+01:40.760 --> 01:47.020
+So what are the three ways that we can you know put success into our project.
+
+01:47.330 --> 01:52.400
+Well to learn how to do that let's just create a basic head or one tag.
+
+01:52.790 --> 01:56.990
+I'm going to take you through a few quick examples.
+
+01:59.240 --> 01:59.710
+OK.
+
+01:59.740 --> 02:08.690
+So we're going to do one a one called let's see ice cream and then a head or two that says I love CSX.
+
+02:08.720 --> 02:10.080
+All right cool.
+
+02:10.100 --> 02:13.490
+Now if you're using brackets go ahead and hit the thumb report here.
+
+02:13.490 --> 02:18.140
+This is going to pull up a preview of everything that we're doing here so you can see that I've got
+
+02:18.140 --> 02:20.550
+a head of one and a head or two.
+
+02:20.780 --> 02:21.230
+All right.
+
+02:21.230 --> 02:22.810
+And I'm going to hit command tab.
+
+02:23.210 --> 02:24.910
+It switches me back to brackets OK.
+
+02:24.920 --> 02:29.510
+So that's what I'm going to be doing to toggle between the two.
+
+02:29.510 --> 02:38.630
+All right so one way to add success to your elements in your web site is called inline styling and to
+
+02:38.630 --> 02:44.720
+do that you're literally going to come inside the element and add the styling.
+
+02:44.750 --> 02:52.100
+And to do that you would write style equals double quotes and we're going to grab the color property
+
+02:52.190 --> 02:57.620
+and assign it to let's do let's do red.
+
+02:57.630 --> 03:03.050
+Now I'm typing out red because I can't remember the hex code for red and you can do that sometimes but
+
+03:03.050 --> 03:07.060
+remember I said I like to use hex code hex codes.
+
+03:07.070 --> 03:12.590
+All right so let's check this out again and you can see that it changed the font.
+
+03:12.590 --> 03:17.510
+Now let's go ahead and change this one style.
+
+03:17.660 --> 03:25.710
+Let's do the color equals green K and end it with a semicolon.
+
+03:26.150 --> 03:26.940
+OK.
+
+03:27.140 --> 03:30.110
+Refresh that and check that out so it's change it to green.
+
+03:30.110 --> 03:31.630
+So that's one way.
+
+03:31.640 --> 03:34.280
+Now let's go ahead and add another style.
+
+03:34.310 --> 03:42.470
+So let's add a border and then you hit a semi-colon and let's do this one pixel which determines the
+
+03:42.470 --> 03:47.360
+thickness will make it thicker so you can see three pixels.
+
+03:47.360 --> 03:58.170
+And then you can define a solid and then the color of it which will do Blue K and it added a solid three
+
+03:58.170 --> 03:59.960
+pixel blue border.
+
+04:00.480 --> 04:07.380
+And you can even change this to dotted this is just some fun stuff you can do with borders to change
+
+04:07.380 --> 04:08.350
+it up a little bit.
+
+04:08.760 --> 04:09.250
+OK.
+
+04:09.300 --> 04:10.900
+So there's that.
+
+04:10.950 --> 04:19.650
+Now you can imagine that if I'm building an entire Web site and I'm doing everything inline styles that
+
+04:19.650 --> 04:24.070
+my web site is probably going to start looking really really really messy.
+
+04:24.330 --> 04:30.300
+And another thing what if I had a bunch of header tags from my web site and I want to change them all
+
+04:30.300 --> 04:38.010
+from red to purple I'm going to go have to select every header one element and change the color on every
+
+04:38.010 --> 04:39.130
+single one of those.
+
+04:39.180 --> 04:42.660
+So inline styling is something you can do.
+
+04:42.690 --> 04:44.680
+I don't recommend it.
+
+04:44.760 --> 04:51.840
+So that's one way that you can add success to your project came inline styling.
+
+04:51.840 --> 04:56.390
+Now the second way you can do this is within the head.
+
+04:56.550 --> 05:02.670
+You can actually add internal stylesheet.
+
+05:02.880 --> 05:08.500
+And so what we would do here is would go ahead and grab the header one tag.
+
+05:08.760 --> 05:09.270
+OK.
+
+05:09.390 --> 05:10.580
+I did something wrong.
+
+05:10.590 --> 05:11.630
+I spelled it wrong.
+
+05:11.640 --> 05:13.900
+That's why this isn't working.
+
+05:14.160 --> 05:14.500
+All right.
+
+05:14.520 --> 05:19.060
+So you can grab the head or one tag and then you're going to make some curly brackets.
+
+05:19.120 --> 05:19.790
+OK.
+
+05:19.890 --> 05:23.130
+And then we can assign the color to be purple.
+
+05:23.320 --> 05:23.990
+OK.
+
+05:24.630 --> 05:33.000
+So if we come back here and you can see that's purple and if we wanted to grab the head or two element
+
+05:33.000 --> 05:35.900
+we could add the color to be.
+
+05:36.090 --> 05:37.910
+I don't know yellow.
+
+05:38.580 --> 05:39.400
+Ok cool.
+
+05:39.420 --> 05:39.950
+Wow.
+
+05:39.960 --> 05:42.770
+You can't even see that let's change the color.
+
+05:43.760 --> 05:44.700
+Let's see turquoise.
+
+05:44.700 --> 05:46.020
+That's a cool color.
+
+05:46.020 --> 05:46.580
+All right cool.
+
+05:46.580 --> 05:47.790
+That's better.
+
+05:47.790 --> 05:49.440
+So you can do things like that.
+
+05:49.640 --> 05:50.390
+OK.
+
+05:50.490 --> 05:58.520
+You can go ahead and add a background of what goes good with purple yellow background might go good.
+
+05:59.340 --> 06:00.090
+OK.
+
+06:00.150 --> 06:02.880
+And there is a yellow background.
+
+06:02.880 --> 06:09.580
+So that's some basic examples of how you can do internal styling.
+
+06:10.110 --> 06:14.480
+Again you can imagine if you're building this big web site.
+
+06:14.490 --> 06:19.930
+This file is going to get pretty long as you had different classes and everything right.
+
+06:20.100 --> 06:22.110
+It's going to get really big again.
+
+06:22.290 --> 06:24.010
+You can do this.
+
+06:24.180 --> 06:25.750
+I don't recommend it.
+
+06:26.100 --> 06:26.420
+All right.
+
+06:26.420 --> 06:27.360
+Now the third way.
+
+06:27.360 --> 06:29.080
+This is the way that I recommend.
+
+06:29.220 --> 06:29.700
+All right.
+
+06:29.700 --> 06:37.440
+So the third way of doing this is adding an external style sheet cam and the way that you do that is
+
+06:37.810 --> 06:43.920
+you're going to create a specific CSSA file so we can right click on the left hand side here click new
+
+06:43.920 --> 06:51.690
+file and I'm going to call the style CSSA has to you have to have the CSSA at the end to identify the
+
+06:51.690 --> 06:53.750
+file as a stylesheet.
+
+06:54.090 --> 06:54.960
+Ok cool.
+
+06:54.960 --> 07:01.890
+So now we've got a style sheet here but we need our Jamail page two to communicate with the style sheet
+
+07:01.890 --> 07:08.190
+we've got to link it so that we can pull in the styles from the external file into our HDL file.
+
+07:08.220 --> 07:08.570
+All right.
+
+07:08.580 --> 07:13.580
+And to do them inside the head we're going to add this link.
+
+07:13.620 --> 07:20.290
+We're going to link Persius as filed here and the relationship which is real is a style sheet.
+
+07:20.480 --> 07:21.050
+OK.
+
+07:21.270 --> 07:28.950
+And then to linkit This is like the u r l or the file path to our stylesheet.
+
+07:29.040 --> 07:32.910
+You can see that it's bringing it up already forming styles.
+
+07:32.940 --> 07:35.380
+Yes s and close it off there.
+
+07:35.610 --> 07:42.960
+So now with this with this line we have just pulled in our CSSA file and this has to be put inside the
+
+07:42.960 --> 07:43.300
+head.
+
+07:43.350 --> 07:44.190
+OK.
+
+07:44.640 --> 07:45.530
+All right cool.
+
+07:45.630 --> 07:54.390
+So now we can come over to here type in a header one for example and do a color.
+
+07:54.660 --> 07:56.950
+What colors do we have here.
+
+07:57.180 --> 07:58.150
+Let's do it.
+
+07:58.200 --> 08:00.370
+This kind of fluorescent green.
+
+08:00.570 --> 08:06.910
+And then we can grab our head or two element and assign it a color.
+
+08:07.950 --> 08:10.160
+Let's pick something fancy.
+
+08:10.290 --> 08:13.010
+Coral coral is cool.
+
+08:13.010 --> 08:13.470
+All right.
+
+08:13.530 --> 08:19.480
+And then we can switch it up here and we've got our green and our coral color.
+
+08:19.560 --> 08:22.420
+So you know it's working pretty cool right.
+
+08:22.650 --> 08:28.360
+So those are the three ways you can add CSSA to your project.
+
+08:29.070 --> 08:35.730
+And for this for this entire course the section we're going to be using an external stylesheet.
+
+08:35.880 --> 08:36.600
+So cool.
+
+08:36.600 --> 08:37.620
+We've got the template here.
+
+08:37.620 --> 08:44.430
+Go ahead and delete the styling in there and we can delete this example stuff here.
+
+08:44.640 --> 08:45.410
+So that's it.
+
+08:45.410 --> 08:47.710
+That's a wrap for this lesson.
+
+08:48.000 --> 08:49.470
+Let's move on.

@@ -1,0 +1,229 @@
+WEBVTT
+
+00:08.360 --> 00:09.230
+A what is up.
+
+00:09.230 --> 00:11.900
+Everybody this is Jason with slopes dot com.
+
+00:11.900 --> 00:19.520
+And in this video we are going to talk about CSSA grouping now grouping in CSSA is a technique used
+
+00:19.520 --> 00:26.870
+to help reduce code redundancies so many times in your in your code or your success you're going to
+
+00:26.870 --> 00:31.940
+have different selectors that are going to have the same declarations on them.
+
+00:31.940 --> 00:39.350
+So for example let's go ahead and get rid of this head or two here and I'm going to take this one.
+
+00:39.560 --> 00:46.040
+And just for example purposes go ahead and copy that and then paste it two times.
+
+00:46.370 --> 00:46.980
+All right.
+
+00:48.180 --> 00:48.410
+All right.
+
+00:48.420 --> 00:49.280
+So we've got that.
+
+00:49.290 --> 00:55.350
+And then let's just pretend this is a class of some sort and then pretend this is like an idea of some
+
+00:55.350 --> 00:55.980
+sort.
+
+00:56.070 --> 01:03.300
+So we might have this one tag in our page and then a class and an ID somewhere in it and they have the
+
+01:03.300 --> 01:07.500
+same exact style declarations on them right.
+
+01:07.500 --> 01:13.500
+So what we can do is you can actually take these and group them all together into one declaration.
+
+01:13.500 --> 01:16.260
+And here's how in your head or one here.
+
+01:16.260 --> 01:17.620
+Go ahead and put a comma.
+
+01:17.910 --> 01:22.490
+And for this I'm going to put a head or two comma and head or three.
+
+01:22.500 --> 01:27.540
+All right go ahead and just delete this class an ID example that we had down here.
+
+01:27.990 --> 01:32.960
+All right so we've got a group here of a head or one head or two and a head or three.
+
+01:33.270 --> 01:37.570
+And we're assigning a color of white.
+
+01:37.650 --> 01:40.050
+We've got a text shadow on this.
+
+01:40.050 --> 01:48.710
+And what we're saying is every head or one and every head or two and every head or three apply this
+
+01:48.710 --> 01:50.060
+style rule to it.
+
+01:50.100 --> 01:50.620
+OK.
+
+01:50.820 --> 01:55.010
+So go ahead and save that and then come over to your HTL.
+
+01:55.080 --> 02:00.530
+We're going to add a head or three here and go ahead and write whatever you want.
+
+02:00.540 --> 02:01.450
+I'm going to write.
+
+02:01.500 --> 02:06.270
+I wish Red Bull gave me wings.
+
+02:06.300 --> 02:07.640
+I do I wish.
+
+02:07.920 --> 02:08.250
+All right.
+
+02:08.250 --> 02:09.820
+So we've got a head or three in here.
+
+02:09.840 --> 02:12.840
+And then I'm going to I just kind of want to define these.
+
+02:12.870 --> 02:22.980
+So put one there and put a head or two here give a space and then go ahead and put a head or three awesome
+
+02:23.410 --> 02:26.850
+and then so we can get some more headers here.
+
+02:26.950 --> 02:32.480
+Let's see where our container closes closes here right at the bottom.
+
+02:32.740 --> 02:35.430
+Outside of this go ahead and add a better one.
+
+02:35.800 --> 02:44.560
+And then we're going to do a head or one example I should build tree swing and then we can do another
+
+02:44.560 --> 02:51.180
+one here with a head or two and go ahead and add that to there and put.
+
+02:51.250 --> 02:52.110
+Let's see.
+
+02:52.210 --> 02:57.550
+I hope the rope doesn't break.
+
+02:57.610 --> 02:58.100
+All right.
+
+02:58.120 --> 02:58.540
+Cool.
+
+02:58.570 --> 03:00.540
+I hope it doesn't break now.
+
+03:00.550 --> 03:02.560
+So we've got a few different headers on here.
+
+03:02.560 --> 03:07.080
+Let's go ahead and save that and then launch it and let's preview this
+
+03:09.930 --> 03:10.320
+all right.
+
+03:10.320 --> 03:11.350
+So cool.
+
+03:11.430 --> 03:16.000
+So we've got all of our head on one so we grouped the ones twos and threes together we can see it's
+
+03:16.000 --> 03:19.470
+applying our white fun and our tech shadow in there.
+
+03:19.470 --> 03:20.980
+Pretty cool stuff.
+
+03:20.990 --> 03:23.910
+Now let's do something else we can.
+
+03:24.840 --> 03:29.100
+We can actually add one more style rules to this.
+
+03:29.100 --> 03:39.750
+We can go ahead and add a line height of let's just put one rim unit there and then we can even go ahead
+
+03:39.750 --> 03:44.310
+and add a font family of like sans serif here.
+
+03:44.730 --> 03:51.450
+OK so what we're doing here is we're taking a group where we're setting a standard for these elements
+
+03:51.450 --> 03:57.330
+here we're saying hey every single head are one two and three we are going to apply these style rules
+
+03:57.330 --> 04:04.620
+to it and then down the road if we want to change a color or a font family on some of these letters
+
+04:05.100 --> 04:10.980
+you can go ahead and add classes to those and get a little bit more specific with your style rule so
+
+04:10.980 --> 04:18.280
+you can target the specific specific head or one tags for example that you want to change.
+
+04:18.510 --> 04:24.840
+And in this not only can we you know grab just elements selectors if you wanted to group like a class
+
+04:24.840 --> 04:31.470
+and here you could go ahead and throw a class and here if it has this same style rules and you can even
+
+04:31.470 --> 04:33.070
+go ahead and add an ID.
+
+04:33.390 --> 04:39.930
+Just make sure that every single one of these is separated by a comma and you can literally add infinite
+
+04:41.070 --> 04:48.540
+elements classes and ideas inside of this and then apply a standard for a style rule here so very cool
+
+04:48.540 --> 04:50.760
+stuff so style rules.
+
+04:51.090 --> 04:55.500
+I mean CSSA grouping is very helpful.
+
+04:55.500 --> 04:56.700
+It's going to do a couple of things.
+
+04:56.700 --> 05:00.200
+It's going to help the redundancy of your code.
+
+05:00.210 --> 05:06.060
+It's going to save you time from repeating the same style rules to different elements.
+
+05:06.060 --> 05:11.560
+It's also going to help the browser load your page a lot quicker by grouping this.
+
+05:11.670 --> 05:16.980
+It's not going to have to read as so many classes or different style rules that you assign to these
+
+05:16.980 --> 05:18.840
+so cool stuff.
+
+05:18.840 --> 05:19.980
+Very very helpful.
+
+05:19.980 --> 05:22.370
+That is CSSA grouping.
+
+05:22.680 --> 05:23.390
+Let's move on.

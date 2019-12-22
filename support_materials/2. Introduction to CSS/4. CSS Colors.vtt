@@ -1,0 +1,580 @@
+WEBVTT
+
+00:04.790 --> 00:05.830
+The
+
+00:08.570 --> 00:11.750
+hey what's up everybody this is Jason with death slopes dot com.
+
+00:11.750 --> 00:15.710
+And in this video we are going to learn about CSSA coloreds.
+
+00:15.800 --> 00:21.710
+Now there's one of three ways that we can use colors in our projects and I'm going to take you through
+
+00:21.710 --> 00:23.410
+and show you how to do that.
+
+00:23.420 --> 00:29.330
+So first thing in your index file Let's go ahead and create two elements here.
+
+00:29.330 --> 00:32.100
+The first one we're going to create is a Hetter one tag.
+
+00:33.000 --> 00:34.190
+And we'll just write.
+
+00:34.280 --> 00:38.840
+You are CSSA to my HMO.
+
+00:38.960 --> 00:40.050
+All right.
+
+00:40.130 --> 00:47.570
+And then the second element we're going to create is a header or two tag and we'll just try any one
+
+00:47.840 --> 00:50.330
+skate out there.
+
+00:50.810 --> 00:51.580
+All right sweet.
+
+00:51.620 --> 00:58.790
+So now we've got two elements on our page that we can work with so I'm going to go ahead and do a vertical
+
+00:58.790 --> 01:00.330
+split view here.
+
+01:00.710 --> 01:10.220
+Now next why don't we go ahead and create a DIV tag with a class of container and just wrap these header
+
+01:10.250 --> 01:11.390
+tags in that.
+
+01:11.390 --> 01:12.270
+All right.
+
+01:12.740 --> 01:16.380
+And then right below here we can go ahead and paste them.
+
+01:16.430 --> 01:17.660
+All right perfect.
+
+01:17.660 --> 01:21.950
+So now we've got a class that we can work with and then two header elements.
+
+01:21.950 --> 01:22.480
+All right.
+
+01:22.610 --> 01:26.860
+So let's go ahead and add a color to this container.
+
+01:26.870 --> 01:27.590
+All right.
+
+01:27.590 --> 01:34.430
+So to do that we're simply going to grab our class container and then we're going to add a background
+
+01:35.030 --> 01:36.000
+color to this.
+
+01:36.100 --> 01:36.810
+All right.
+
+01:38.640 --> 01:44.520
+And what we're going to do first is the first way that we can add a color here is by writing the specific
+
+01:44.520 --> 01:45.750
+name of a color.
+
+01:45.750 --> 01:46.340
+OK.
+
+01:46.380 --> 01:52.230
+Now when you're writing the name of the color one thing to know is the color name actually has to exist.
+
+01:52.260 --> 01:55.310
+You can't just like make up a color name and throw it in there.
+
+01:55.380 --> 01:58.550
+You have to make sure that the current name actually exists.
+
+01:58.560 --> 02:01.650
+And in this case we are going to use.
+
+02:02.160 --> 02:05.000
+Let's go ahead and use this dark slate blue.
+
+02:05.220 --> 02:06.730
+All right.
+
+02:07.440 --> 02:11.010
+So close that off with a semi there and then.
+
+02:11.040 --> 02:19.450
+Let's go ahead and launch this and see what it looks like Cool so you can see that we've got a background
+
+02:19.450 --> 02:24.710
+color that we've added to this container and we've got our two header tags wrapped inside of this.
+
+02:25.000 --> 02:32.320
+Let's go over a second way that we can use colors in CSSA and to do this let's go ahead and grab the
+
+02:32.320 --> 02:36.730
+head or one tag right and right color.
+
+02:36.730 --> 02:44.140
+So to add a color to a any type of a text or a font you're going to write the property color and then
+
+02:44.140 --> 02:46.740
+in this case let's use a hex code.
+
+02:46.870 --> 02:57.250
+Now a hex code begins with a pound signed and then you can either use three or six characters depending
+
+02:57.310 --> 02:59.980
+on the color that you're using.
+
+02:59.980 --> 03:05.680
+Now if you're using one of the like primary colors like black or white or red or blue something like
+
+03:05.680 --> 03:11.230
+that you can get away with using three letters in your hex code.
+
+03:11.230 --> 03:19.130
+But if you want more of a specific color of some sort you can use up to six hex code letters here.
+
+03:19.180 --> 03:22.150
+So this is the hex code for white.
+
+03:22.510 --> 03:23.860
+I've added 6 F's here.
+
+03:23.860 --> 03:29.520
+Now I could add three but I'm just going to use 6 and then if we come back over to this and refresh
+
+03:29.520 --> 03:35.240
+or you can see that we have change the color to the head of one font to white.
+
+03:35.290 --> 03:35.800
+Awesome.
+
+03:35.800 --> 03:40.060
+So pretty standard and there is a third way that we can do this.
+
+03:40.090 --> 03:46.360
+And let's go ahead and grab our head or two and we're going to add the same color property because we're
+
+03:46.360 --> 03:48.360
+working with tex.
+
+03:48.460 --> 03:51.890
+And then this one is an R.G. B color here.
+
+03:52.090 --> 03:53.580
+OK so you're simply going to write.
+
+03:53.610 --> 04:01.360
+RG double parentheses and then close it off with the semi colon and then in here we're going to give
+
+04:01.360 --> 04:05.560
+this three values and I'm going to make this a blue color.
+
+04:05.590 --> 04:10.010
+And so we're going to go ahead and out our three values so I'm going to add a zero.
+
+04:10.090 --> 04:16.750
+It needs to be followed by a comma and then it's two or four followed by a comma and then 255 K..
+
+04:16.900 --> 04:19.210
+And this is going to give us a blue color.
+
+04:19.570 --> 04:26.120
+So when we're using R.G. B's colors remember takes three values and then it's separated by a comma.
+
+04:26.290 --> 04:31.880
+And again this allows us to get more of a specific color that we're looking for.
+
+04:32.020 --> 04:38.620
+If like the name of a color isn't giving us what we're looking for so let's go ahead and save that and
+
+04:38.620 --> 04:43.980
+come back over here and you can see that we have changed the color of our head or two.
+
+04:44.200 --> 04:45.400
+So very cool stuff.
+
+04:45.400 --> 04:49.140
+Those are the three ways that you can use colors.
+
+04:49.150 --> 04:53.860
+Now let's dive a little bit deeper and show you how we can work with gradients.
+
+04:53.950 --> 04:54.690
+All right.
+
+04:54.850 --> 05:04.480
+So to do this on this container Let's go ahead and get rid of the background color and put a semi colon.
+
+05:04.480 --> 05:10.180
+And we're just going to be working with a background and then let's go ahead and open up our browser
+
+05:11.290 --> 05:17.680
+and we're going to dive in a little bit deeper and have a better understanding of CSSA gradients.
+
+05:17.710 --> 05:23.660
+So go ahead and type in CSSA gradient and then let's come to W3 schools here.
+
+05:25.990 --> 05:31.210
+All right so it says here that says three gradients that you display smooth transitions between two
+
+05:31.210 --> 05:33.130
+or more specified colors.
+
+05:33.130 --> 05:34.120
+All right.
+
+05:34.120 --> 05:39.310
+And you can see here in their example they kind of got this greenish blue over to a darker blue.
+
+05:39.310 --> 05:47.210
+And also one thing to note with gradients is not all browsers support this like all browser versions
+
+05:47.290 --> 05:54.010
+and there is an extra syntax that we can add to our gradients to help browsers pick up on this.
+
+05:54.010 --> 06:03.010
+So for a gradient we can either use a linear gradient radial a repeating or a repeating radial gradient.
+
+06:03.040 --> 06:06.710
+And these are the different browsers and there compatibility.
+
+06:06.790 --> 06:12.600
+Now you'll notice that they have a syntax here like a Web Kit and then the Mozilla.
+
+06:12.610 --> 06:13.110
+Here.
+
+06:13.120 --> 06:15.160
+And then the O for Oprah.
+
+06:15.160 --> 06:24.400
+So using this syntax here will help the browser read the property value of this linear gradient so it
+
+06:24.400 --> 06:25.390
+shows up.
+
+06:25.450 --> 06:30.790
+So coming down here a little bit further we've got some examples how we can use this so you can see
+
+06:30.790 --> 06:36.610
+that they're using an ID and they're using the property background and then they're able to set these
+
+06:36.610 --> 06:37.890
+gradients.
+
+06:37.910 --> 06:45.670
+Now you do want to have a fallback default color for the browser to fall back on just in case there
+
+06:45.730 --> 06:49.180
+is a compatibility issue for the browser.
+
+06:49.300 --> 06:52.650
+So that way it just reads a standard color and I'm going to pull something in.
+
+06:52.810 --> 07:00.160
+And then you can see that they have four other ways of adding the gradients and that's just adding in
+
+07:00.160 --> 07:04.920
+a Web Kit compatibility for Oprah and Firefox.
+
+07:05.020 --> 07:08.130
+And then they have the standard text here at the bottom.
+
+07:08.170 --> 07:11.160
+So let's come back into brackets here.
+
+07:12.230 --> 07:18.470
+And then on this what we're going to do is because we're using Chrome here and Chrome is very compatible
+
+07:18.470 --> 07:21.100
+with a lot of the standards out there.
+
+07:21.140 --> 07:24.380
+We're simply going to write a linear gradient.
+
+07:24.380 --> 07:30.620
+This is the gradient that we're going to use in this example and then put your parentheses and then
+
+07:30.620 --> 07:38.140
+close that off and then this is going to be taking a starting point and an end point.
+
+07:38.140 --> 07:39.110
+All right.
+
+07:39.110 --> 07:41.420
+So let's go ahead and grab two colors here.
+
+07:41.420 --> 07:44.260
+I'm actually going to come back over to the browser.
+
+07:44.570 --> 07:50.660
+I'm going to open up a new tab here and just write in html color picker.
+
+07:50.660 --> 07:55.130
+And then again W3 schools has a really cool one that I like to use and the color that we're going to
+
+07:55.130 --> 07:57.720
+be using is this blue here.
+
+07:58.100 --> 08:02.330
+So I'm going to grab this hex value here.
+
+08:02.540 --> 08:07.060
+I'm going to come back over the brackets and this is going to be my starting color.
+
+08:07.160 --> 08:14.090
+OK so I'm going to go ahead and paste that in and then it takes two values because now I need the stopping
+
+08:14.750 --> 08:21.620
+end of the color and I'm going to come back over to this and list to choose a lighter blue and I'm going
+
+08:21.620 --> 08:27.150
+to grab this one here and copy it and then we'll come back over here and paste that color in.
+
+08:27.410 --> 08:28.160
+All right.
+
+08:28.160 --> 08:32.330
+And then let's go ahead and change this to a no split view because we're going to be working directly
+
+08:32.330 --> 08:33.540
+in our CSSA here.
+
+08:33.800 --> 08:37.850
+So now what we've done is we've added a linear gradient.
+
+08:37.870 --> 08:38.220
+OK.
+
+08:38.240 --> 08:40.760
+And this is a top to bottom.
+
+08:41.060 --> 08:49.100
+So back into our browser here and you can see that it's taken the darker color added it to the top and
+
+08:49.100 --> 08:52.760
+then it fades very smoothly into our lighter blue.
+
+08:52.760 --> 08:56.790
+Now you saw that there was radial gradients and so forth.
+
+08:56.840 --> 09:03.530
+We can also take these linear gradients and we can control the starting and stopping point of it and
+
+09:03.530 --> 09:04.620
+to do that.
+
+09:04.700 --> 09:09.080
+For example we can add a third variable here.
+
+09:09.770 --> 09:16.820
+And what we can do is for an example we can say to right and this way it's going to start it from the
+
+09:16.820 --> 09:18.350
+right to left.
+
+09:18.440 --> 09:24.980
+OK so back over here and you can see now we've got a blue starting from the right and going to the left.
+
+09:24.980 --> 09:32.330
+And you can do the same thing to the left and then you can also define like top or bottom.
+
+09:32.540 --> 09:33.010
+Right.
+
+09:33.020 --> 09:39.740
+So I'm not going to go ahead and I'm not going to add the web kits and the syntax for the other browsers
+
+09:39.830 --> 09:42.970
+in this example we're just going to stick with a basic here.
+
+09:42.980 --> 09:46.930
+So that is how you can work with gradients.
+
+09:46.940 --> 09:53.120
+So it's just a background property and then choose the type of gradient you want to use and then you
+
+09:53.120 --> 09:57.790
+can choose a direction and a starting and stopping color there.
+
+09:57.800 --> 09:58.400
+All right.
+
+09:59.700 --> 10:00.020
+All right.
+
+10:00.020 --> 10:02.270
+Now the last thing that I want to cover here.
+
+10:02.420 --> 10:10.220
+Working with colors is shadows and shadows are cool you can apply those to like backgrounds or text
+
+10:10.610 --> 10:14.140
+or images really add any element on your page.
+
+10:14.180 --> 10:20.810
+So let's come down to the hetter one tag and to add a shadow to a font.
+
+10:20.930 --> 10:30.230
+Go ahead and type in tex shadow and then it's going to take two to three values here and in this first
+
+10:30.230 --> 10:34.510
+example we're just going right to pixels by two pixels.
+
+10:34.790 --> 10:39.200
+And what this is doing is we have our elements selected here.
+
+10:39.230 --> 10:47.690
+K our element is selected and then we're saying on a vertical access where do we want our shadow to
+
+10:47.690 --> 10:49.990
+be placed like how far out.
+
+10:50.180 --> 10:53.890
+And then how far out do you want it placed on a horizontal access.
+
+10:54.120 --> 10:54.670
+OK.
+
+10:54.710 --> 11:00.590
+So go ahead and save that and we're setting the vertical and horizontal axis to two pixels by two pixels.
+
+11:00.590 --> 11:06.080
+All right and that's going to put it to the bottom right now if we were to do negative 2 pixels and
+
+11:06.080 --> 11:10.720
+negative 2 pixels This would put it at the top left.
+
+11:10.730 --> 11:16.080
+So coming into here you can see that it has added a shadow back here.
+
+11:16.080 --> 11:24.090
+It's it's difficult to see because we've added a white text color to our font so that's what it's inheriting.
+
+11:24.110 --> 11:26.370
+So why don't we go ahead and change that.
+
+11:26.750 --> 11:31.170
+So right after the two pixels we can actually define a color that we want to add to this.
+
+11:31.400 --> 11:33.760
+And in this case let's use black.
+
+11:33.890 --> 11:36.690
+That will show up really well with our white font.
+
+11:36.740 --> 11:38.650
+So go ahead and save that.
+
+11:39.020 --> 11:42.510
+And now you can see that it's taken our shadow.
+
+11:42.620 --> 11:45.940
+And it's it's a solid black color.
+
+11:45.950 --> 11:52.610
+Now the cool thing is we can actually add one more variable to this to this property here and that's
+
+11:52.610 --> 11:58.310
+called a blur radius so instead of having such a hard black we can kind of spread the sound and blur
+
+11:58.310 --> 11:58.780
+it out.
+
+11:58.790 --> 12:01.820
+So let me show you how that works.
+
+12:01.820 --> 12:08.990
+So right before defining your color black Let's go ahead and add a nother value here and we'll just
+
+12:08.990 --> 12:17.330
+do five pixels and this is going to take this solid black line and it's going to blurt it out 5 pixels.
+
+12:18.620 --> 12:24.430
+OK so coming into here you can see how much softer This is looking so very very clean.
+
+12:24.640 --> 12:30.890
+Let's go ahead and add a background shadow to our head or two.
+
+12:30.910 --> 12:38.170
+So again to do this we're going to do a text shadow and then in this case why don't we just do this
+
+12:38.170 --> 12:41.210
+like one pixel by one pixel.
+
+12:41.320 --> 12:48.550
+Give it a blur radius of like three pixels and then let's do a really cool color like hey let's just
+
+12:48.550 --> 12:49.650
+too dark blue.
+
+12:49.990 --> 12:51.170
+OK.
+
+12:52.110 --> 12:54.660
+All right and then let's check out how that looks.
+
+12:55.090 --> 12:55.450
+All right.
+
+12:55.450 --> 13:00.010
+And you can see that it's added a much finer tech shadow to this.
+
+13:00.010 --> 13:08.400
+Now we can also go ahead and actually add background shadow to this container that we've created.
+
+13:08.770 --> 13:15.620
+So if we come into here and then on our container add a box shadow OK.
+
+13:15.700 --> 13:22.670
+And then the same principle we can define the vertical horizontal axis set of Blur radius and a color.
+
+13:22.690 --> 13:30.670
+So let's just do like a three pixel by three where we can actually make this different by five pixel
+
+13:31.090 --> 13:35.020
+and then give it like a 3 pixel of a blur radius and then let's just do this as black.
+
+13:35.020 --> 13:40.870
+So it shows up easily and then come over here refresh that.
+
+13:41.080 --> 13:47.260
+And you can see that we've only shoved it over to pixels to the right but we've got a much heavier shadow
+
+13:47.260 --> 13:48.610
+here on the bottom.
+
+13:48.610 --> 13:50.260
+All right so very cool stuff.
+
+13:50.260 --> 13:53.250
+So that is how we work with colors.
+
+13:53.350 --> 13:57.160
+We can either use color names hex values or R.G. colors.
+
+13:57.160 --> 14:04.630
+We've used colored gradients in here and then we have also learned how to add shadows to Tex or other
+
+14:04.630 --> 14:06.880
+elements on our page so very cool stuff.
+
+14:06.880 --> 14:07.480
+That's it.
+
+14:07.480 --> 14:08.750
+That is a wrap.
+
+14:08.750 --> 14:09.580
+Moving on.
