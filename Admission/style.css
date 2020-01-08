@@ -12,19 +12,55 @@ body {
 .header {
   padding: 20px;
   text-align: center;
-  background: #1abc9c;
+  background-image: url(./images/header_bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   color: white;
+  height: 768px;
+  width: 1350px;
 }
 
-/* Increase the font size of the heading */
+/*admission enquiry logo */
+.enquiry_anim {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header h1 {
-  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  font-size: 3em;
+}
+
+.h2_problem {
+  text-decoration: underline;
+}
+
+.problem{
+  font-size: 1.2em;
+  margin: 0px 50px;
+  padding: 20px;
+  text-align: justify;
+}
+
+/* welcome font size */
+.header p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkblue;
 }
 
 /* Style the top navigation bar */
 .navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: darkblue;
 }
 
 /* Style the navigation bar links */
@@ -44,8 +80,13 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: orangered;
   color: black;
+  font-weight: bolder;
+}
+
+.universities{
+  margin-left: 50px;
 }
 
 /* Column container */
