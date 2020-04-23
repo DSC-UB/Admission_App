@@ -3,6 +3,13 @@
 nav,
 header,
 footer {
+  font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    Geneva,
+    Verdana,
+    sans-serif;
   display: block;
 }
 
@@ -46,18 +53,53 @@ article p {
   content: "";
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
 
 * {
   box-sizing: border-box;
@@ -67,37 +109,51 @@ article p {
 
 nav {
   width: 100%;
+  height: 80px;
   margin: 0;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
 }
 
 nav ul {
-  background-color: #eee;
   overflow: hidden;
   margin: 0;
-  padding: 0;
+  padding: 20px 0;
 }
 
 ul.topnav li {
   list-style: none;
   float: left;
+
 }
 
 ul.topnav li.topnav-right {
   float: right;
 }
 
+.active {
+  background-color: blue;
+  font-weight: bold;
+}
+
 ul.topnav li a {
   display: block;
   text-decoration: none;
-  min-height: 16px;
+  min-height: 15px;
   text-align: center;
-  padding: 14px;
+  width: 110px;
+  padding: 10px;
+  margin: 0 3px;
   text-transform: uppercase;
-  color: #666;
+  color: #fff;
+  border: solid 2px blue;
+  border-radius: 3px;
 }
 
 ul.topnav li a:hover {
-  background-color: #0080ff;
+  background-color: blue;
+  font-weight: bold;
   color: #fff;
 }
 
@@ -108,11 +164,16 @@ ul.topnav li.dropdownIcon {
 /*##### Custom styles #########*/
 
 #section-1-gradient {
-  background: #076DFF; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#076DFF, #65a5ff); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#076DFF, #65a5ff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#076DFF, #65a5ff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#076DFF, #65a5ff); /* Standard syntax */
+  background: #076DFF;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#076DFF, #65a5ff);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#076DFF, #65a5ff);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#076DFF, #65a5ff);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#076DFF, #65a5ff);
+  /* Standard syntax */
 }
 
 
@@ -122,14 +183,30 @@ div.box {
   padding: 36px 24px 40px 24px;
   border-radius: 7px;
   background-color: #fff;
-  box-shadow: 0 0 0 1px rgba(0,0,0,.15),
-    0 2px 3px 0 rgba(0,0,0,.1);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+    0 2px 3px 0 rgba(0, 0, 0, .1);
 }
 
 div.slopeIcon img {
   display: block;
   margin: auto;
-  box-shadow: -2px/*H*/ -2px/*V*/ 20px/*B*/ 2px/*S*/ rgba(0/*Sh*/,0/*BG*/, 0/*BX*/,.15/*Op*/ ), 2px 2px 17px 2px rgba(0,0,0,1);
+  box-shadow: -2px
+    /*H*/
+    -2px
+    /*V*/
+    20px
+    /*B*/
+    2px
+    /*S*/
+    rgba(0
+      /*Sh*/
+      , 0
+      /*BG*/
+      , 0
+      /*BX*/
+      , .15
+      /*Op*/
+    ), 2px 2px 17px 2px rgba(0, 0, 0, 1);
 }
 
 button {
@@ -148,7 +225,7 @@ button.learnMore {
   display: block;
   margin: auto;
 }
-  
+
 
 div.leftSide-col {
   margin-left: 30%;
@@ -175,14 +252,15 @@ form h2 {
   color: #fff;
 }
 
-input[type="Email"]{
+input[type="Email"] {
   font-size: 20px;
   width: 400px;
   min-width: 100px;
   padding: 5px;
   border-radius: 7px;
 }
-textarea[class='comment']{
+
+textarea[class='comment'] {
   width: 370px;
   height: 100px;
   padding: 5px;
@@ -213,45 +291,135 @@ footer.footsy ul li {
   line-height: 1.5;
 }
 
+.mySlides img {
+  width: 100%;
+  height: 700px;
+  filter: brightness(50%);
+
+}
+
+
+* {
+  box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  z-index: -1;
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+  top: 80px;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.slider_text {
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 16%;
+  color: white;
+  width: 900px;
+}
+
+/* Fading animation */
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+} */
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+
 /*######### Mobile ###########*/
 
 @media screen and (max-width: 680px) {
   ul.topnav li:not(:nth-child(1)) {
     display: none;
   }
-  
+
   ul.topnav li.dropdownIcon {
     display: block;
     float: right;
   }
-  
+
   ul.topnav.responsive li.dropdownIcon {
     position: absolute;
     top: 0;
     right: 0;
   }
-  
+
   ul.topnav.responsive {
     position: relative;
   }
-  
+
   ul.topnav.responsive li {
     display: inline;
-    float: none; 
+    float: none;
   }
-  
+
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
   }
-  
+
   h1.section2Header {
-  font-size: 50px;
-}
+    font-size: 50px;
+  }
+
   article p {
     font-size: 25px;
   }
-  
+
   .col-7,
   .col-6,
   .col-5,
@@ -259,39 +427,39 @@ footer.footsy ul li {
     width: 100%;
     margin: 0;
   }
-  
+
   div.mobileStack {
     width: 50%;
     display: block;
   }
-  
+
   div.box {
     padding: 5px;
     display: block;
   }
-  
+
   div.slopeIcon {
     margin: 10px;
   }
-  
+
   div.slopeIcon img {
     width: 100%;
   }
-  
+
   div.leftSide-col,
   div.rightSide-col {
     margin: 15px;
   }
-  
+
   input[type="text"] {
     width: 350px;
   }
-  
+
   .videoContainer iframe {
     position: relative;
     width: 100%;
     margin: 0;
     overflow: hidden;
   }
-    
+
 }
