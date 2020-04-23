@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admission App</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,33 +20,31 @@
     </ul>
   </nav>
 
-  <div class="container" id="section-1-gradient">
-    <div class="row">
-      <div class="col-6">
-        <div class="leftSide-col">
-          <h1 class="large">Admission Platform</h1>
-          <h2 class="large">For Special Inquireies</h2>
-        </div>
-        <form>
-          <div class="leftSide-col">
-            <h2>Email</h2>
-            <input class="inputbox" name="Email" type="Email" placeholder="Email">
-            <br><br>
-            <textarea class="comment" type='text'>Type your Message here.</textarea>
-      		<br>
-      		<input type="submit" name="submit" value="Send">
-          </div>
-        </form>
-      </div>
-      <div class="col-6">
-        <div class="rightSide-col">
-          <div class="videoContainer">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DcN_hcHXR_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
+  
+  <!-- All about the landing page slider  -->
+  <!-- Slideshow container -->
+  <div class="slider_text">
+    <h1>Get all the info about admission into the best universities in Cameroon </h1>
   </div>
+
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="./img/catholic university (Copy).jpg">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="./img/amphi stu.jpg">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="./img/lecturer (Copy).jpg">
+      <div class="text"></div>
+    </div>
+
+
 
   <header>
     <h1 class="section2Header">Discover the different Awesome Universities in Cameroon</h1>
@@ -152,6 +152,43 @@
       } else {
         x.className = "topnav";
       }
+    }
+  </script>
+
+  <!-- Javascript code for the sliding images -->
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length } for (i = 0; i < slides.length; i++) { slides[i].style.display = "none"; } for (i = 0;
+        i < dots.length; i++) { dots[i].className = dots[i].className.replace(" active", ""); }
+      slides[slideIndex - 1].style.display = "block"; dots[slideIndex - 1].className += " active";
+    }
+  </script>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) { slides[i].style.display = "none"; } slideIndex++; if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 5000); // Change image every 5 seconds
     }
   </script>
 
