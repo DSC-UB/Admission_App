@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <ul class="topnav" id="dropdownClick">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="topnav-right"><a href="#about">About</a></li>
+      <li class="topnav-right"><a href="#sevices">Services</a></li>
+      <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+    </ul>
+  </nav>
+
+<div class="slider_text">
+  <h1>Get all the info about admission into the best universities in Cameroon </h1>
+</div>
+
+  <div class="container" id="section-1-gradient">
+    <div class="row">
+      <div class="col-6">
+        <div class="leftSide-col">
+          <h1 class="large">Admission Platform</h1>
+          <h2 class="large">For Special Inquireies</h2>
+        </div>
+        <form>
+          <div class="leftSide-col">
+            <h2>Email</h2>
+            <input class="inputbox" name="Email" type="Email" placeholder="Email">
+            <br><br>
+            <textarea class="comment" type='text'>Type your Message here.</textarea>
+      		<br>
+      		<input type="submit" name="submit" value="Send">
+          </div>
+        </form>
+      </div>
+      <div class="col-6">
+        <div class="rightSide-col">
+          <div class="videoContainer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DcN_hcHXR_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!-- All about the landing page slider  -->
+   <!-- Slideshow container -->
+   <!-- <div class="slideshow-container"> -->
+
+     <!-- Full-width images with number and caption text -->
+     <!-- <div class="mySlides fade">
+       <img src="1.jpg">
+       <div class="text"></div>
+     </div>
+
+     <div class="mySlides fade">
+       <img src="2.jpg">
+       <div class="text"></div>
+     </div>
+
+     <div class="mySlides fade">
+       <img src="5.jpg">
+       <div class="text"></div>
+     </div> -->
+
+
+  <header>
+    <h1 class="section2Header">Discover the different Awesome Universities in Cameroon</h1>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="box">
+          <a style="text-decoration:none" href="ub/index-3.html">
+            <div class="icon">
+              <img src="UB_logo">
+            </div>
+            <label>University of Buea</label>
+          </a>
+          <p>University located in the historic town of Buea on the eastern flank of Mount Cameroon, is the only
+            English-speaking institution of its kind in predominantly French-speaking Central Africa.</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box">
+          <div class="icon">
+            <img src="DLA_logo">
+          </div>
+          <label>University of Douala</label>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore.</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box">
+          <div class="icon">
+            <img src="BDA_logo">
+          </div>
+          <label>University of Bamenda</label>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <button class="learnMore">More Universities</button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-7">
+        <article>
+          <p>Little information about this stie . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </article>
+      </div>
+      <div class="col-5">
+        <div class="slopeIcon">
+          <img src="About_logo">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footsy">
+    <div class="row">
+      <div class="col-3 mobileStack">
+        <h1>Company</h1>
+        <ul>
+          <li>About</li>
+          <li>Blogs</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div class="col-3 mobileStack">
+        <h1>Technology</h1>
+        <ul>
+          <li>Hardware</li>
+          <li>Software</li>
+          <li>Mobile</li>
+        </ul>
+      </div>
+      <div class="col-3 mobileStack">
+        <h1>Media</h1>
+        <ul>
+          <li>Develpoer</li>
+          <li>Students Club</li>
+          <li>Github</li>
+        </ul>
+      </div>
+      <div class="col-3 mobileStack">
+        <h1>Legal</h1>
+        <ul>
+          <li>Privacy</li>
+          <li>Terms of Use</li>
+          <li>Sitemap</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script>
+    function dropdownMenu() {
+      var x = document.getElementById("dropdownClick");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        /*change topnav to topnav.responsive*/
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+<!-- Javascript code for the sliding images -->
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex=slides.length} for (i=0; i < slides.length; i++) { slides[i].style.display="none" ; } for (i=0;
+    i < dots.length; i++) { dots[i].className=dots[i].className.replace(" active", "" ); }
+    slides[slideIndex-1].style.display="block" ; dots[slideIndex-1].className +=" active" ; }
+</script>
+<script>
+  var slideIndex = 0;
+  showSlides();
+  function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) { slides[i].style.display="none" ; } slideIndex++; if (slideIndex> slides.length)
+    {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+    }
+</script>
+
+</body>
+
+</html>
