@@ -21,11 +21,18 @@ body {
 label {
   font-size: 35px;
   font-weight: 600;
+  color: blue;
 }
 
 p {
-  font-size: 28px;
+
+  font-size: 1.5rem;
   line-height: 1.2;
+  padding: 5%;
+}
+
+hr {
+  color: blue;
 }
 
 article p {
@@ -35,8 +42,7 @@ article p {
 
 .container {
   width: 100%;
-  margin: auto;
-  padding-top: 4%;
+  margin: 0 auto;
   padding-bottom: 4%;
 }
 
@@ -178,13 +184,19 @@ ul.topnav li.dropdownIcon {
 
 
 div.box {
+  height: auto;
   text-align: center;
-  margin: 24px;
-  padding: 36px 24px 40px 24px;
-  border-radius: 7px;
+  margin: 10px 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: solid 2px blue;
   background-color: #fff;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
     0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+div.box:hover {
+  border: solid 4px rgb(1, 1, 150);
 }
 
 div.slopeIcon img {
@@ -211,14 +223,17 @@ div.slopeIcon img {
 
 button {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: normal;
   color: #fff;
-  background-color: #0069ff;
-  padding: 15px 60px;
+  background-color: blue;
+  padding: 10px 50px;
   display: block;
   text-align: center;
-  margin: 5px;
-  border-radius: 7px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(1, 1, 150);
 }
 
 button.learnMore {
@@ -242,9 +257,18 @@ h1.large {
   line-height: 70px;
 }
 
-h1.section2Header {
-  font-size: 65px;
+.section2Head {
+  margin-top: 100px;
+}
+
+h2.section2Header {
+  font-size: 45px;
   text-align: center;
+  display: block;
+  position: relative;
+  margin: 5%;
+  color: blue;
+  text-decoration: underline;
 }
 
 
@@ -270,13 +294,15 @@ textarea[class='comment'] {
 }
 
 footer.footsy {
-  background-color: #666;
-  padding-left: 10%;
+  background-color: black;
+  padding: 30px 0;
 }
 
 footer.footsy h1 {
-  color: #fff;
-  font-size: 35px;
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 footer.footsy ul {
@@ -286,16 +312,10 @@ footer.footsy ul {
 }
 
 footer.footsy ul li {
+  text-align: center;
   color: #fff;
-  font-size: 22px;
+  font-size: 15px;
   line-height: 1.5;
-}
-
-.mySlides img {
-  width: 100%;
-  height: 700px;
-  filter: brightness(50%);
-
 }
 
 
@@ -303,14 +323,43 @@ footer.footsy ul li {
   box-sizing: border-box
 }
 
+.mySlides img {
+  width: 100%;
+  height: auto;
+  filter: brightness(60%);
+}
+
+.con-con {
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: auto;
+}
+
 /* Slideshow container */
 .slideshow-container {
+  text-align: center;
   z-index: -1;
   max-width: 100vw;
   max-height: 100vh;
   position: relative;
   top: 80px;
-  margin: auto;
+  margin-bottom: 10%;
+  overflow: hidden;
+}
+
+.slideshow-text {
+  margin: 0;
+  width: 100%;
+  padding: 0 15%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  transform: translate(-50%, -50%)
 }
 
 /* Hide the images by default */
@@ -341,15 +390,6 @@ footer.footsy ul li {
   text-align: center;
 }
 
-.slider_text {
-  font-size: 30px;
-  text-align: center;
-  position: absolute;
-  top: 200px;
-  left: 16%;
-  color: white;
-  width: 900px;
-}
 
 /* Fading animation */
 /* .fade {
@@ -383,6 +423,33 @@ footer.footsy ul li {
 /*######### Mobile ###########*/
 
 @media screen and (max-width: 680px) {
+
+  /*landing*/
+  .mySlides img {
+    width: auto;
+    height: 100vh;
+
+  }
+
+  /* .slideshow-container {
+  max-width: 100vw;
+  max-height: 100vh;
+} */
+
+  .slideshow-text {
+    font-size: 1.5rem;
+  }
+
+  h2.section2Header {
+    font-size: 25px;
+  }
+
+  label {
+    font-size: 30px;
+  }
+
+
+
   ul.topnav li:not(:nth-child(1)) {
     display: none;
   }
@@ -413,7 +480,11 @@ footer.footsy ul li {
   }
 
   h1.section2Header {
-    font-size: 50px;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: large;
   }
 
   article p {
@@ -461,5 +532,6 @@ footer.footsy ul li {
     margin: 0;
     overflow: hidden;
   }
+
 
 }
